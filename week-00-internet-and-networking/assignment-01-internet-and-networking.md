@@ -40,9 +40,8 @@ in easy language and easy to understand 2) give me details with some example tha
 it would be easy to grasp the concept."
 
 ## Screenshot
-![Task 1 Screenshot](screenshots/image 1.jpeg)
-![Task 1 Screenshot](screenshots/image 2.jpeg))
-
+![Task 1 Screenshot](screenshots/image%201.jpeg)
+![Task 1 Screenshot](screenshots/image%202.jpeg)
 ## What I Learned
 I learned that networking means connecting devices so they can share data and resources.I understood that a protocol is a set of rules devices follow to communicate — 
 similar to how we follow rules when writing an address on a letter.This helped me realize protocols like HTTP and TCP/IP are what let devices "talk" properly.
