@@ -33,10 +33,19 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 ---
 
 ## What I Learned (2–3 lines)
+**Prompt used**: "Act like you are pro in Networking, your task is to tell me in detail 
+'what actually networking is?', I am beginner and don't know anything about it, 
+remember these points when you are generating response: 1) the answer should be 
+in easy language and easy to understand 2) give me details with some example that 
+it would be easy to grasp the concept."
 
-Add your answer here...
+## Screenshot
+![Task 1 Screenshot](screenshots/image 1.jpeg)
+![Task 1 Screenshot](screenshots/image 2.jpeg))
 
----
+## What I Learned
+I learned that networking means connecting devices so they can share data and resources.I understood that a protocol is a set of rules devices follow to communicate — 
+similar to how we follow rules when writing an address on a letter.This helped me realize protocols like HTTP and TCP/IP are what let devices "talk" properly.
 
 # 🌐 Task 2: Internet and Networking
 
