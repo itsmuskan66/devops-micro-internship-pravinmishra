@@ -278,21 +278,16 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Honestly the networking basics clicked pretty fast once I saw them explained with real-life examples. Like once I understood protocols as just "rules devices follow to talk," things like HTTP and TCP/IP started making sense on their own.
 
----
 
 ### What was difficult?
 
-Add your answer here...
+The architecture part took me longer than I expected. I kept mixing up where the backend sits in a three-tier setup at first (I actually had frontend talking directly to the database in my first diagram, had to fix that). DNS and packet switching were also a bit abstract until I connected them to the bigger picture — it's not that each concept is hard alone, it's seeing how they all fit together that took extra thinking.
 
----
 
 ### What will you improve next week?
-
-Add your answer here...
-
----
+I want to actually get my hands dirty more instead of just reading about things. More terminal practice, more building instead of just understanding theory. I'm also going to slow down a bit when I hit something I don't fully get instead of just moving on.
 
 ## 📌 About DMI & CloudAdvisory
 
