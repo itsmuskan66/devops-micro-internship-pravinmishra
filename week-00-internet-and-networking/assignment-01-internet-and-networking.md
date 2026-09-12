@@ -66,11 +66,13 @@ Write a short explanation (**100–150 words**) that includes:
 💡 **Tip:** You may use ChatGPT (as demonstrated in Task 1) to refine your explanation.
 
 ## Answer
-
-Add your answer here...
-
----
-
+"When a user anywhere in the world visits EpicReads.com, their request doesn't travel as one single piece — it's broken down into small pieces called packets. This process is called **Packet Switching**, and it allows data to travel efficiently across different network paths and reassemble correctly at the destination. This is how actually request done.
+Every device connected to the internet, including the server hosting EpicReads in Finland, 
+has a unique **IP Address** that identifies it, similar to a home address. This is how packets 
+know exactly where to go.
+**TCP/IP** is the set of rules that manages this entire journey — TCP ensures packets arrive in the correct order and without errors, while IP handles addressing and routing across networks.Finally, **HTTP/HTTPS** is the protocol used specifically for web browsing. When a user types 
+EpicReads.com, HTTPS (its a secure transmission protocol) ensures the connection is encrypted, so their data 
+stays private while communicating with the server in Finland.
 # 🏗️ Task 3: Application Architecture & Stack
 
 ## Scenario
