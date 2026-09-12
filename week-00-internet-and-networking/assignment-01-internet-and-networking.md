@@ -101,7 +101,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/Task_3.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -111,21 +111,44 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 ## Technologies Used
 
 ### Frontend
+Frontend (what the user sees its like UI)
 
-* Add your answer here...
-* Add your answer here...
+ 1) **HTML/CSS/JavaScript**
+1. HTML builds the structure/skeleton of the website (headings, paragraphs, buttons, images)
+2. CSS makes it look good (colors, fonts, layout, spacing)
+3. JavaScript makes it interactive (button clicks, form validation, animations)
+**Example**: On EpicReads' homepage, the list of books is structured with HTML, styled with CSS, and the "Add to Cart" button becomes clickable/functional through JavaScript.
+
+2)  **React.js**
+A JavaScript library that makes building large, complex websites much easier
+Works by breaking the UI into components (small reusable pieces like Header, BookCard, Footer)
+Used by sites like Facebook and Instagram
+**Example:** On EpicReads, each book's card (image + title + price) would be a reusable component, used thousands of times for every book without rewriting code.
 
 ### Backend
+Backend (works behind the scenes, invisible to the user)
+1) **Node.js (Express)**
+Node.js lets JavaScript run on the server (normally JavaScript only ran in browsers)
+Express is a framework built on top of Node.js that makes building servers easier (handling routes, APIs, requests)
+**Example**: When a user clicks "Login," the Express server checks if the username/password is correct by verifying against the database, then sends back a response.
 
-* Add your answer here...
-* Add your answer here...
+2) **Python (Django/Flask/Fast-API)**
+Python is a programming language commonly used for backend logic
+Django is a large, "batteries-included" framework (built-in security, admin panel, database handling)
+Flask is a lightweight, minimal framework — you only add what you need
+**Example:** EpicReads' payment processing, order history, and user accounts could all be handled by backend logic written in Python (Django or Flask).
 
 ### Database
+Database (where data is stored)
+**MySQL**
+A relational database — data is stored in tables (rows and columns), similar to a spreadsheet
+Has a strict, fixed structure — every entry in a table follows the same format
+**Example**: EpicReads' "Books" table would have rows for each book, with columns like Title, Author, Price, and Stock — great for organized, structured data.
+**MongoDB**
+A NoSQL database — data is stored as documents (JSON-like format) instead of tables
+Flexible structure — each entry can have a slightly different format
+**Example:** If some EpicReads books have extra details (like "Signed Copy" or "Limited Edition") and others don't, MongoDB handles that flexibility easily without needing to redesign a fixed table structure.
 
-* Add your answer here...
-* Add your answer here...
-
----
 
 # 🌍 Task 4: Domain Name & DNS (Basic Concepts)
 
