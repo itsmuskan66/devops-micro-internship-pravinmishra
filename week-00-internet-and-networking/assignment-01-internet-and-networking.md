@@ -172,10 +172,10 @@ In **50–100 words**, explain in your own words:
 2. Which DNS record type should be used to connect the domain to the given IP, and why?
 
 ## Answer
-
-Add your answer here...
-
----
+## Answer
+DNS (Domain Name System) works like the internet's phonebook — it translates human-friendly domain names (like epicreads.com) into machine-readable IP addresses (like 52.172.142.222) that computers use to locate servers. Without DNS, users would have to remember IP addresses instead of simple names.
+To connect epicreads.com to its server's IP address, an **A Record** should be used, since it directly maps a domain name to an IPv4 address. This way, when someone types 
+epicreads.com, DNS looks up the A Record and directs the browser to 52.172.142.222, where the site is hosted.
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
