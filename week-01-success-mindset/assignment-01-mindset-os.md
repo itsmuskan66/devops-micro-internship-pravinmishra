@@ -32,11 +32,7 @@ You will reuse this in later weeks. So do it properly once.
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
-
-Add your answer here...
-
----
-
+I believe that most people wait for the "right moment" — the right motivation, the right mood, or the right circumstances — before they start working hard. I disagree with this completely. I think hard work and discipline should start immediately, regardless of how you feel or how ready you think you are. Most people around me tend to delay effort until they feel inspired or until things feel comfortable, but from what I've observed, that mindset almost always leads to procrastination. Waiting to "feel ready" is often just an excuse in disguise. The people who actually make progress are usually the ones who start being disciplined and hardworking from day one, even when they don't feel like it — not the ones waiting for motivation to magically appear.
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
 
 ### Definition
