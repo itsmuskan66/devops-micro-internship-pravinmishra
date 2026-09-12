@@ -141,12 +141,10 @@ Flask is a lightweight, minimal framework — you only add what you need
 ### Database
 Database (where data is stored)
 **MySQL**
-A relational database — data is stored in tables (rows and columns), similar to a spreadsheet
-Has a strict, fixed structure — every entry in a table follows the same format
+A relational database — data is stored in tables (rows and columns), similar to a spreadsheet has a strict, fixed structure — every entry in a table follows the same format
 **Example**: EpicReads' "Books" table would have rows for each book, with columns like Title, Author, Price, and Stock — great for organized, structured data.
 **MongoDB**
-A NoSQL database — data is stored as documents (JSON-like format) instead of tables
-Flexible structure — each entry can have a slightly different format
+A NoSQL database — data is stored as documents (JSON-like format) instead of tables flexible structure — each entry can have a slightly different format
 **Example:** If some EpicReads books have extra details (like "Signed Copy" or "Limited Edition") and others don't, MongoDB handles that flexibility easily without needing to redesign a fixed table structure.
 
 
