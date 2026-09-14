@@ -33,7 +33,11 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Discipline is the actual foundation of success - not talent, not network, not luck, and not the right university. Most people I know treat discipline as something you eventually build up to once you feel motivated. I believe that is backwards. Discipline is what you build the motivation on top of.
+
+In tech specifically, I believe you have to learn broadly before you specialize. Most people rush to pick a lane - frontend, cloud, data - before they understand how the layers connect. I think that is a mistake. You should understand networking, Linux, security, and architecture well enough to reason about them, and then pick the domain that pulls you hardest and go deep without distraction. This approach takes longer upfront and most people won't do it. That is exactly why it is the right approach.
+
+The engineers who last in this industry are not the most talented - they are the most consistent. And consistency is a discipline problem, not a motivation problem.
 
 ---
 
@@ -55,11 +59,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Taking challenges before you feel ready opens doors that no amount of planning or waiting ever does.
 
 ### Evidence from my life
 
-Add your answer here...
+I took on the AWS Cloud Club Captain role at APU before I felt qualified. The outcomes were not the ones I had planned for - the connections I made, the people I met, and the opportunities that followed were things I would never have found by waiting until I felt ready. The unexpected results from that one decision were greater than anything I had mapped out in advance. Berani mencoba - being willing to try - is the actual leverage.
 
 ---
 
@@ -67,11 +71,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Consistency at a modest daily rate compounds faster and more durably than effort spikes.
 
 ### Evidence from my life
 
-Add your answer here...
+I tested this during AWS certification preparation. Sixty focused minutes per day for thirty days produced more retained knowledge and more exam readiness than weekend sessions where I studied for eight hours straight and then stopped for days. The engineers I most respected in the communities I joined were not the most talented in the room - they were the most consistent. Daily output over time creates a record that intensity alone does not.
 
 ---
 
@@ -79,11 +83,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Building broad technical foundations first makes every advanced concept easier to understand and faster to apply.
 
 ### Evidence from my life
 
-Add your answer here...
+When I started working on cloud infrastructure, I noticed that engineers who had skipped networking or Linux fundamentals hit walls every time something broke in production and they had no model to reason from. I took time to understand those layers properly before moving up the stack. Every advanced topic after that - IAM, VPC design, distributed systems - landed faster because the foundation was already there. The time investment in breadth paid back faster than I expected.
 
 ---
 
@@ -153,13 +157,35 @@ Hashtags:
 
 ## Your Article
 
-Add your answer here...
+**Javeson Francois Liu: The Cloud Engineer Who Built His Foundation From Scratch in Malaysia**
+
+In 2031, Javeson Francois Liu is not a person who is still figuring out what he wants to build.
+
+By 2029, he had earned all 12 AWS certifications — Solutions Architect Professional, DevOps Engineer Professional, Security Specialty, Advanced Networking Specialty, Database Specialty, and the full set. He did not treat the certifications as resume padding. He used each one as a forcing function to go deep in a specific domain before moving to the next, building a map of the AWS ecosystem that few engineers his age had taken the time to construct.
+
+He built and led cloud infrastructure teams, designed production-grade 3-tier topologies on AWS, and shipped automated Infrastructure as Code deployment pipelines in Terraform that ran in real organizations - not just lab environments. His GitHub became a record of shipped work, not a collection of tutorials and half-finished learning projects.
+
+By 2028, he contributed consistently to the AWS community, published technical writing on his personal portfolio blog and LinkedIn on a regular schedule, and spoke at regional cloud and DevOps events in Southeast Asia. The portfolio he started as a student project in 2026 served as the first visible proof point - the place where any potential client, employer, or collaborator could see his thinking and his output before they ever met him.
+
+He ran a cloud architecture consultancy handling enterprise-scale deployments across Southeast Asia, and built a second venture outside pure technology. The breadth he invested in during his early twenties - the networking fundamentals, the Linux internals, the security principles, the systems thinking he developed through DMI and the years that followed - turned out to be the exact thing that made the consultancy credible. Clients do not hire a cloud specialist who cannot reason about the full stack when production breaks.
+
+He remained based in Malaysia and built from there. Not despite the location, but from it - with the understanding that the engineers who waited for the right city or the right company before starting their real work were still waiting.
+
+He earned the AWS Golden Jacket. The jacket meant he had not only collected certifications but had demonstrated mastery recognized by the broader AWS community. Getting there required the kind of daily discipline he had committed to years earlier: one focus block, one output, one day at a time.
+
+The thing that most people missed when they looked at the résumé, the GitHub, the certifications, and the consultancy was the unglamorous part that made all of it possible: he started before he felt ready, he was consistent when the motivation was not there, and he did not divide his attention across five things at once when one thing needed to get done.
+
+That is the version he built. No shortcuts, no waiting, no multitasking.
+
+---
+
+*P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/javesonfrancoisliu.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3*
 
 ### Public Link
 
 Paste your link here:
 
-`Add your URL here`
+`https://javesonfrancoisliu.com/blog/dmi-w2-mindset`
 
 ---
 
@@ -191,7 +217,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+**No.**
+
+I have not cut corners in the ways this question is pointing at - not in the academic, professional, or ethical sense. That is not because I have never been tempted or pressed for time, but because the cost of that kind of shortcut never made sense to me. The feeling I associate most with shortcuts is not guilt after the fact - it is the avoidance of that feeling before the fact that has kept me from taking them. There is a particular kind of stress that comes from knowing you submitted something you did not actually earn, and I have not found a way to make that feeling worth it. The work I do is mine. That matters more to me than the time it takes.
 
 ---
 
@@ -217,16 +245,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. *Deep Work* — Cal Newport
+2. *The Phoenix Project* — Gene Kim, Kevin Behr, George Spafford
+3. *Atomic Habits* — James Clear
+4. *The Pragmatic Programmer* — David Thomas and Andrew Hunt
+5. *The Hard Thing About Hard Things* — Ben Horowitz
+6. *So Good They Can't Ignore You* — Cal Newport
+7. *The Lean Startup* — Eric Ries
+8. *Site Reliability Engineering* — Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy
+9. *Thinking in Systems* — Donella H. Meadows
+10. *Zero to One* — Peter Thiel and Blake Masters
 
 ---
 
@@ -255,16 +283,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week (target: 9 out of 10 priority)
+* AWS certification progress milestones
+* Projects shipped and publicly documented (GitHub + blog)
+* Deep work sessions per week (single-task, no phone)
+* Sleep hours per night
+* Physical activity sessions per week (target: 3 minimum)
+* Monthly spending vs. savings target (money: 7 out of 10 priority)
+* LinkedIn posts published per month
+* DMI assignment submission rate
+* Weekly review: did this week move toward the 2.0 version or away from it?
 
 ---
 
@@ -290,7 +318,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+**Yes.** Done in a private notebook. Cleared pending tasks, mapped active responsibilities, noted goals for the 5-month DMI window, and listed things that were taking space in my head that did not need to be there.
 
 ---
 
@@ -308,7 +336,10 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon–Thu: 60–90 min focused DMI or certification study block (single task, no phone, early morning or evening)
+* Friday: Rest or light review, no new material
+* Saturday: DMI live session + any assignment work
+* Sunday: Weekly review - what shipped, what was missed, update metrics
 
 ---
 
@@ -316,11 +347,13 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday, Tuesday, Wednesday, Thursday: 9:00 PM – 10:30 PM
+Saturday: DMI session time (live cohort schedule)
+Sunday: 8:00 PM – 9:00 PM for review only
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5 sessions per week (4 deep work sessions + 1 live DMI session)
 
 ---
 
@@ -334,7 +367,11 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* Phone goes into another room during every deep work session - no exceptions
+* Social media only after the day's focus block is complete
+* Work surface is clear before starting: no notifications, no unrelated tabs
+* One task per session defined before the session starts - no switching mid-session
+* If multitasking temptation appears, write the competing task down and return to it after the session ends - never abandon the current task mid-block
 
 ---
 
@@ -342,15 +379,15 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+The biggest insight was that discipline without architecture is just intention. Writing down the 2.0 version, the metrics, the routine, and the distraction rules is not motivational work - it is system design. I already knew discipline was important, but I had not formalized the operating system around it. That is the gap Week 1 closed.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+Multitasking. I naturally start multiple things in parallel - messages, tasks, study - and end up not completing any of them at full quality. The loop is: start task, get interrupted or start another, lose depth on both, close the day with incomplete outputs. I want to become someone who finishes one thing before starting the next.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Single-task deep work blocks every weekday at 9:00 PM, 60 minutes minimum. Before the session starts: define the one output. During: phone in another room, no notifications. After: record what was completed. This is the core system. Everything else is built around it.
 
 ### LinkedIn Post
 
@@ -363,7 +400,7 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- Blog / Medium : **https://javesonfrancoisliu.com/blog/dmi-w2-mindset**  
 
 ---
 
