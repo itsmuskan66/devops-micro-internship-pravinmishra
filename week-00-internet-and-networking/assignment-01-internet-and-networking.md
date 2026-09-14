@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+A protocol is a set of rules that devices must follow to communicate with each other - similar to how a letter needs a correct address and format to reach its destination. Without a shared protocol, two devices have no common language and cannot exchange data. HTTP/HTTPS is one of the most common protocols, governing how browsers request and receive web pages.
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user visits EpicReads from anywhere in the world, their request travels across the internet using **packet switching** - the data is broken into small packets, each routed independently through different paths, then reassembled at the destination. Every device on the network has a unique **IP address**, like a postal address, so packets know where to go. The **TCP/IP** protocol suite manages how packets are sent reliably and in the correct order. Finally, **HTTPS** (a secure version of HTTP) handles the actual communication between the user's browser and EpicReads' web server - encrypting the connection so the data cannot be intercepted in transit.
 
 ---
 
@@ -102,18 +102,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React
+* Next.js
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Express
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* PostgreSQL
+* MySQL
 
 ---
 
@@ -142,7 +142,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is the internet's directory service - it translates human-readable domain names like `epicreads.com` into IP addresses like `52.172.142.222` that computers use to find each other. Without DNS, users would need to memorize IP addresses to visit any website.
+
+To connect `epicreads.com` to the IP `52.172.142.222`, an **A record** should be used. An A record maps a domain name directly to an IPv4 address, which is exactly the situation here - pointing the purchased domain to the server's IP so browsers can resolve it correctly.
 
 ---
 
@@ -244,9 +246,31 @@ Add your URL here...
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+Week 0 of the DevOps Micro Internship is done - and it covered more ground than I expected.
 
-Add your post content here...
+Here is what I worked through:
+
+**ChatGPT as a Learning Tool**
+Used it to break down what a networking protocol actually is. The analogy that stuck: a protocol is like the rules for sending a letter - address, envelope, delivery service. Without the rules, nothing arrives.
+
+**Internet & Networking**
+How does a user in Malaysia access EpicReads hosted in Finland? Packet switching breaks the request into small chunks, each routed independently. TCP/IP handles reliable delivery and ordering. HTTPS encrypts the connection. DNS translates epicreads.com into the server's IP address. All of this happens in milliseconds.
+
+**Application Architecture**
+2-Tier: Frontend talks directly to the Database (React/Next.js → PostgreSQL). Simple but tightly coupled - scaling one layer means scaling both.
+3-Tier: Frontend → Backend → Database (React/Next.js → Node.js/Express → PostgreSQL). The backend handles business logic separately, making the system easier to scale and maintain.
+
+**DNS**
+To connect epicreads.com to IP 52.172.142.222, you use an A Record - it maps a domain name directly to an IPv4 address.
+
+**VS Code Setup**
+Terminal running inside VS Code, pwd and ls confirmed. This is the environment I will be using for the next 14 weeks.
+
+The networking fundamentals this week are the foundation everything else in DevOps is built on. You cannot debug a broken deployment without understanding how traffic flows.
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/javesonfrancoisliu.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
+
+#DMIByPravinMishra #AgenticAI #DevOps
 
 ---
 
@@ -254,19 +278,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+The conceptual side of networking - protocols, IP addresses, and DNS - clicked quickly because I could relate them to real-world analogies like postal systems and phone directories. Setting up VS Code and running terminal commands was also straightforward since I already use it daily.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Articulating the packet switching process clearly in 100-150 words without losing accuracy. Networking involves a lot of moving parts happening simultaneously, and condensing that into a concise explanation required careful word choice.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I want to go deeper on the OSI model and understand exactly which layer each protocol operates at. Week 0 gave me the surface understanding - I want the mental model that lets me reason about what breaks at which layer when something goes wrong in production.
 
 ---
 
