@@ -130,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | [Add after posting](#) | [javesonfrancoisliu.com/blog/dmi-w0-net](https://javesonfrancoisliu.com/blog/dmi-w0-net) |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmi-devops-micro-internship-with-agentic-activity-7505295767767797760-mLhF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g) | [javesonfrancoisliu.com/blog/dmi-w0-net](https://javesonfrancoisliu.com/blog/dmi-w0-net) |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | [Add after posting](#) | [javesonfrancoisliu.com/blog/dmi-w1-mindset](https://javesonfrancoisliu.com/blog/dmi-w1-mindset) |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
