@@ -185,7 +185,7 @@ That is the version he built. No shortcuts, no waiting, no multitasking.
 
 Paste your link here:
 
-`https://javesonfrancoisliu.com/blog/dmi-w1-mindset`
+`https://javesonfrancoisliu.vercel.app/blog/dmi-w1-mindset`
 
 ---
 
@@ -400,7 +400,7 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: **https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmi-devops-micro-internship-with-agentic-activity-7505302452448096256-Jvbf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g**  
-- Blog / Medium : **https://javesonfrancoisliu.com/blog/dmi-w1-mindset**  
+- Blog / Medium : **https://javesonfrancoisliu.vercel.app/blog/dmi-w1-mindset**  
 
 ---
 
