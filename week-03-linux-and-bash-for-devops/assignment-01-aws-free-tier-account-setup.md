@@ -20,19 +20,21 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is the root identity that grants access to Amazon Web Services and all its cloud resources. At this stage, it acts as the onboarding gateway for EpicReads to begin provisioning cloud infrastructure — compute, storage, networking — without managing physical hardware. It provides a billing boundary so all usage is tracked under a single entity, and it is the prerequisite for launching any EC2 instance, S3 bucket, or other service needed to host the bookstore in the cloud.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier is a program that lets new accounts use a defined set of AWS services at no cost, allowing teams to learn, prototype, and test before committing to paid usage. It has three tiers: 12-month free (available from account creation date), always-free (no expiry), and short-term trials (typically 30–60 days). For EpicReads, the 12-month tier covers the EC2 t2.micro and t3.micro instances needed to run the application server, making it the right choice for a proof-of-concept cloud migration.
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+1. **Amazon EC2 (t2.micro / t3.micro)** — 750 hours per month for 12 months. Sufficient to run a single Linux server continuously for a full month without cost, which is enough to host the Nginx-served EpicReads site.
+2. **Amazon S3** — 5 GB of standard storage, 20,000 GET requests, and 2,000 PUT requests per month for 12 months. Suitable for storing static assets like images and build artifacts for the bookstore.
+3. **Amazon RDS (db.t2.micro / db.t3.micro)** — 750 hours per month for 12 months with 20 GB of storage. Covers a small managed database instance for EpicReads catalog and user data without upfront infrastructure cost.
 
 ---
 
@@ -56,7 +58,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+![Screenshot 1](screenshots/a1-ss1.png)
 
 ---
 
@@ -70,7 +72,7 @@ Share your AWS cloud onboarding progress on WhatsApp Status and provide evidence
 
 ### Screenshot 2 — Published WhatsApp Status showing your AWS onboarding message and leaderboard progress link visible
 
-Add your screenshot here.
+![Screenshot 2](screenshots/a1-ss2.png)
 
 ---
 
@@ -85,13 +87,13 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot 1 of AWS Account page captured (full name visible, no sensitive data)
-- [ ] Task 4: AWS onboarding progress shared on WhatsApp Status
-- [ ] Screenshot 2 of published WhatsApp Status captured with leaderboard progress link visible
-- [ ] All required screenshots added to repository
+- [x] Task 1 answers written in own words
+- [x] AWS Free Tier account created successfully
+- [x] Signed in to AWS Management Console
+- [x] Screenshot 1 of AWS Account page captured (full name visible, no sensitive data)
+- [x] Task 4: AWS onboarding progress shared on WhatsApp Status
+- [x] Screenshot 2 of published WhatsApp Status captured with leaderboard progress link visible
+- [x] All required screenshots added to repository
 
 ---
 
