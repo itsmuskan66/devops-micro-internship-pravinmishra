@@ -24,7 +24,7 @@
           {
             "matcher": "",
             "type": "command",
-            "command": "bash .claude/hooks/user-prompt-guard.sh"
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/user-prompt-guard.sh"
           }
         ]
       }
@@ -35,7 +35,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/pre-tool-guard.sh"
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/pre-tool-guard.sh"
           }
         ]
       }
@@ -46,7 +46,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/post-tool-logger.sh"
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/post-tool-logger.sh"
           }
         ]
       }
