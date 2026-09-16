@@ -82,7 +82,7 @@ Week 2 taught me that working with agentic AI well is a form of systems thinking
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Screenshot 1](screenshots/a8-ss1.png)
 
 ---
 
@@ -90,7 +90,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`Add your URL here`
+`https://javesonfrancoisliu.vercel.app/blog/dmi-w2-claude`
 
 ---
 
@@ -106,7 +106,7 @@ Share your Week 2 learning publicly on LinkedIn.
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Screenshot 2](screenshots/a8-ss2.png)
 
 ---
 
@@ -115,31 +115,49 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Week 2 of DMI done — and this one changed how I think about AI.
+Week 2 of the DevOps Micro Internship: Operationalizing Agentic AI with Claude Code
 
-This week I went beyond prompting. I configured Claude Code with:
+Week 2 moved far beyond simple prompt engineering. The focus shifted to configuring, constraining, and integrating an autonomous coding agent directly into an active engineering environment.
 
-- CLAUDE.md to define project context and rules
-- Skills (/scaffold-terraform, /tf-plan) for reusable automation
-- Specialized subagents for security, cost, and Terraform writing
-- MCP to connect Claude to live GitHub data
-- Hooks and permissions to block destructive commands before they execute
-- Memory so Claude remembers project facts across sessions
+A breakdown of the core systems and controls implemented this week:
 
-The biggest insight: agentic AI is infrastructure, not just tooling. You configure it, constrain it, and connect it — the same way you think about cloud architecture.
+1/ Persistent Project Memory (CLAUDE.md)
+- Configured repository-level context persistence to store project conventions, design rules, and constraints.
+- Verified that cold-started sessions retain architectural boundaries without manual re-briefing.
 
-Read my full reflection: [BLOG LINK]
+2/ Reusable Agentic Skills
+- Built custom automated commands (/scaffold-terraform, /tf-plan) to package complex setup logic.
+- Generated complete, compliant multi-tier Terraform architectures without writing manual boilerplate.
 
-View my DMI progress: https://dmi.pravinmishra.com/s/javesonfrancoisliu.html
+3/ Multi-Agent Orchestration
+- Decoupled responsibilities into three specialized subagents: Security Auditor, Terraform Writer, and Cost Optimizer.
+- Enforced least-privilege tool access to eliminate context bloat and ensure predictable execution.
 
-#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
+4/ Live Context Integration via MCP
+- Connected Claude Code directly to GitHub using Model Context Protocol (MCP).
+- Enabled the agent to query real repository state and live data securely over token-based authentication.
+
+5/ Deterministic Safety Rails & Execution Hooks
+- Implemented UserPromptSubmit to block destructive intent at the input boundary.
+- Added PreToolUse hooks to intercept dangerous runtime operations like terraform destroy.
+- Configured PostToolUse audit logging to track validation and formatting runs.
+
+The core insight from this milestone: agentic AI functions like infrastructure, not just an interactive assistant. You define the desired state, enforce security boundaries, and integrate data sources using the same architectural discipline applied to cloud platforms.
+
+Read my full reflection: https://javesonfrancoisliu.vercel.app/blog/dmi-w2-claude
+
+GitHub Repository: https://github.com/javesonfrancoisliu/devops-micro-internship-pravinmishra
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI - Cohort 3 - by Pravin Mishra & Anjana Muthunayake. My graded progress is public: https://dmi.pravinmishra.com/s/javesonfrancoisliu.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #InfrastructureAsCode #AISafety #Automation
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+`https://lnkd.in/p/ehcF6j5J`
 
 ---
 
@@ -155,15 +173,15 @@ View my DMI progress: https://dmi.pravinmishra.com/s/javesonfrancoisliu.html
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [x] Blog written with required structure
+* [x] Blog includes at least 2–3 Week 2 topics
+* [x] Blog is publicly accessible
+* [x] LinkedIn post created
+* [x] Required P.S. line included
+* [x] LinkedIn post content copied in submission field
+* [x] Blog link added
+* [x] LinkedIn post link added
+* [x] Screenshots added to GitHub repo
 
 ---
 
