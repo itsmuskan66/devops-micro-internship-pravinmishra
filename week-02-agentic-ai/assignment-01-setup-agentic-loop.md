@@ -20,13 +20,13 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-Add your screenshot here.
+![Screenshot 1](screenshots/a1-ss1.png)
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-Add your screenshot here.
+![Screenshot 2](screenshots/a1-ss2.png)
 
 ---
 
@@ -40,7 +40,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-Add your screenshot here.
+![Screenshot 3](screenshots/a1-ss3.png)
 
 ---
 
@@ -54,13 +54,13 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-Add your screenshot here.
+![Screenshot 4](screenshots/a1-ss4.png)
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
+![Screenshot 5](screenshots/a1-ss5.png)
 
 ---
 
@@ -74,7 +74,7 @@ Share your completed Agentic AI session and DMI Leaderboard progress on LinkedIn
 
 #### Screenshot 6 — Published LinkedIn post showing the caption and shared DMI Leaderboard progress
 
-Add your screenshot here.
+![Screenshot 6](screenshots/a1-ss6.png)
 
 ---
 
@@ -92,7 +92,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+`https://github.com/javesonfrancoisliu/devops-micro-internship-pravinmishra`
 
 ---
 
