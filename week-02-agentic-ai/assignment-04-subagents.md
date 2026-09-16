@@ -34,19 +34,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+Cost optimization is a pattern-matching task, not a reasoning-heavy one. The agent scans resource configurations and compares them against known cost patterns like price class, versioning policy, and storage tiers. Haiku handles this well and finishes faster than Sonnet at lower cost. Sonnet is reserved for tasks that need deeper analysis, like security auditing, where subtle misconfigurations can have serious consequences and require more careful judgment.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+A security auditor's only job is to read and report; it should never modify what it is auditing. Giving it Write access would mean it could accidentally alter the files it is checking, which could corrupt the audit trail or make unauthorized changes to infrastructure code. The principle is the same as a human auditor who reviews code without being allowed to edit it: the integrity of the audit depends on read-only access. If a fix is needed, that is a separate task for the tf-writer agent.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer generates and modifies Terraform code on demand, and the quality of its output should match whatever model the orchestrating session is using. Pinning it to a specific model would mean the agent runs on a fixed capability level even if the team upgrades their tooling. Using `inherit` keeps it consistent with the parent session's model, so if the team is running on a more capable model for a complex deployment, the tf-writer benefits from that automatically without needing a separate configuration change.
 
 ---
 
