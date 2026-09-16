@@ -50,38 +50,29 @@ Write each truth in this format:
 ## Truth #1
 
 ### Truth
-
-Add your answer here...
+Doing practically something teaches you 10x faster than watching tutorials.
 
 ### Evidence from my life
 
-Add your answer here...
-
----
+Once i was learning python and got stuck on some basic concepts then i try to do it practically and i learn more things and clear more concepts rather than a single concept on which i was stuck.
 
 ## Truth #2
 
 ### Truth
 
-Add your answer here...
+Consistency matter more than motivation.
 
 ### Evidence from my life
 
-Add your answer here...
-
----
-
+when i was doing mine first internship firstly i was more motivated and doing all the things but i was consistent when motivation gone consistency  makes me better and better.
 ## Truth #3
 
 ### Truth
 
-Add your answer here...
+your environment directly control your focus and results.
 
 ### Evidence from my life
-
-Add your answer here...
-
----
+i use to study with mine phone i got distracted i place mine phone side and start working more consistently .
 
 # Assignment 3. What does your 2.0 version look like?
 
@@ -141,15 +132,29 @@ Add the following credit note at the end of your post **(If you are DMI Campus s
 
 ## Your Article
 
-Add your answer here...
+
+
+**From Beginner to Builder: How Sakeena Became an Agentic AI Engineer**
+
+Three years ago, Muskan was sitting in front of a terminal for the first time, running a `dir` command inside VS Code and trying to understand what a packet actually was. Today, she leads AI infrastructure work at a product company, designing and shipping agentic systems that handle real production workloads.
+
+Her path started with the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI, where she built her foundations one week at a time — networking, Linux, Git, Docker, Kubernetes, Terraform, and cloud platforms. She documented every week publicly on GitHub, which later became the portfolio that got her hired.
+
+Her first role was as a Junior DevOps Engineer, where she automated deployment pipelines and cut manual release time significantly. Within eighteen months, she moved into AI infrastructure, combining her DevOps foundation with LLM systems — a combination that turned out to be rare and valuable.
+
+She built and shipped several agentic AI systems, including a retrieval-augmented internal knowledge assistant that reduced support ticket resolution time for her team, and a multi-agent workflow tool that automated repetitive engineering tasks. Both projects live on her GitHub with full documentation, architecture diagrams, and write-ups explaining her design decisions.
+
+She earned her AWS Solutions Architect certification and later a Kubernetes certification, but she consistently said her real proof was the work itself, not the badges.
+
+Beyond her job, she published technical blog posts breaking down agentic AI concepts for beginners — the same way she once wished someone had explained networking to her. She contributed to open-source AI tooling and mentored newer engineers inside her company and in the DMI community.
+
+When asked what made the difference, she pointed to consistency rather than talent. She showed up on days she didn't feel like it, built things badly first and improved them later, and never waited to feel ready before starting.
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/itsmuskan66.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
 
 ### Public Link
 
-Paste your link here:
 
-`Add your URL here`
-
----
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
