@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![Screenshot 1](screenshots/a4-ss1.png)
 
 ---
 
@@ -54,13 +54,13 @@ The tf-writer generates and modifies Terraform code on demand, and the quality o
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![Screenshot 2](screenshots/a4-ss2.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![Screenshot 3](screenshots/a4-ss3.png)
 
 ---
 
@@ -74,13 +74,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![Screenshot 4](screenshots/a4-ss4.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![Screenshot 5](screenshots/a4-ss5.png)
 
 ---
 
@@ -94,7 +94,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![Screenshot 6](screenshots/a4-ss6.png)
 
 ---
 
@@ -119,7 +119,7 @@ Make sure your published post includes:
 
 #### Screenshot 7 — Published LinkedIn post showing your post content and leaderboard progress link visible
 
-Add your screenshot here.
+![Screenshot 7](screenshots/a4-ss7.png)
 
 ---
 
@@ -135,7 +135,11 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+`https://github.com/javesonfrancoisliu/devops-micro-internship-pravinmishra`
+
+## LinkedIn Post URL
+
+`https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmi-devops-micro-internship-with-agentic-activity-7505911426914377728-g2XB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g`
 
 ---
 

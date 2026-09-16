@@ -42,6 +42,42 @@ You can publish your blog on:
 
 ---
 
+## Blog Content — Javeson Francois Liu
+
+### Reflection – Week 2: How I Gave an AI a Memory, Safety Rails, and a Team
+
+**By Javeson Francois Liu**
+
+Week 2 of the DevOps Micro Internship with Agentic AI was not what I expected. I thought it would be about learning Claude Code features. What I actually learned was how to think about AI as infrastructure — something you configure, constrain, and connect to external systems, not just something you prompt.
+
+**CLAUDE.md: Context as Configuration**
+
+The most mind-shifting moment came early with `CLAUDE.md`. Before I added it, asking Claude about my project gave me a generic answer. After I defined the project rules — S3, CloudFront, Terraform, no JavaScript — Claude stopped suggesting React and started referencing my actual stack. That is when I realized the real skill in agentic AI is not crafting clever prompts. It is defining the context clearly enough that the AI stays in bounds without being micromanaged every session.
+
+**Skills: Reusable Automation**
+
+Skills changed how I think about repetition. Running `/scaffold-terraform` and watching Claude read the template specification and generate five Terraform files — that is not just convenient. That is the same principle behind infrastructure as code. Instead of writing Terraform by hand every project, I write the spec once and the skill handles the rest. The fact that `tf-plan` uses `allowed-tools: Bash, Read, Grep` and blocks Write access is exactly the principle of least privilege applied to AI agents.
+
+**Subagents: Specialization Over Generalization**
+
+Building the security auditor, cost optimizer, and Terraform writer as separate agents taught me something I have seen in every well-functioning engineering team: specialization reduces errors. The security auditor does not have Write access because an auditor should never touch what it is reviewing. The cost optimizer runs on Haiku because cost pattern matching does not need the same reasoning depth as security analysis. These are engineering decisions, not configuration details.
+
+**Hooks and Permissions: AI Safety by Design**
+
+This was the hardest part to appreciate at first, but the most important. The `UserPromptSubmit` hook that blocks destructive intent before Claude even processes the request — that is not a workaround for a bad AI. That is defense in depth. You do not trust any system with your infrastructure unconditionally. You add guardrails at every layer.
+
+**Memory: Persistence Across Sessions**
+
+Memory was the feature that made everything feel coherent. Closing a session and reopening it to find Claude still knows the CSS hero colors and the JavaScript restriction — that is what turns a chatbot into a persistent collaborator.
+
+**One System I Will Implement**
+
+Starting every new project with a `CLAUDE.md` before writing a single line of code. Define the stack, the constraints, the conventions. That single habit will save more time than any prompt optimization.
+
+Week 2 taught me that working with agentic AI well is a form of systems thinking. You are not just using a tool — you are designing the conditions under which the tool operates safely and effectively.
+
+---
+
 ### Evidence
 
 #### Screenshot 1 — Blog published and visible
@@ -79,7 +115,24 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 of DMI done — and this one changed how I think about AI.
+
+This week I went beyond prompting. I configured Claude Code with:
+
+- CLAUDE.md to define project context and rules
+- Skills (/scaffold-terraform, /tf-plan) for reusable automation
+- Specialized subagents for security, cost, and Terraform writing
+- MCP to connect Claude to live GitHub data
+- Hooks and permissions to block destructive commands before they execute
+- Memory so Claude remembers project facts across sessions
+
+The biggest insight: agentic AI is infrastructure, not just tooling. You configure it, constrain it, and connect it — the same way you think about cloud architecture.
+
+Read my full reflection: [BLOG LINK]
+
+View my DMI progress: https://dmi.pravinmishra.com/s/javesonfrancoisliu.html
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 ```
 
 ---

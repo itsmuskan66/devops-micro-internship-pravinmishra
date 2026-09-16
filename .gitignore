@@ -1,1 +1,8 @@
 .DS_Store
+.claude/settings.local.json
+.claude/agent-memory/
+.claude/deploy.log
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+*.zip

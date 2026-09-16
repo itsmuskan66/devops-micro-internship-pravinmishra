@@ -112,7 +112,7 @@ Celebrate your progress and share your DMI Leaderboard achievement on WhatsApp.
 
 Paste your forked repository URL here:
 
-`https://github.com/javesonfrancoisIiu/devops-micro-internship-pravinmishra`
+`https://github.com/javesonfrancoisliu/devops-micro-internship-pravinmishra`
 
 ---
 
