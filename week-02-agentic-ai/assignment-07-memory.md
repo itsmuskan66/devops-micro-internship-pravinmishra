@@ -111,7 +111,7 @@ Paste your forked repository URL here:
 - [x] Fresh session opened after full restart (Screenshot 4)
 - [x] Claude recalled hero colors correctly (Screenshot 5)
 - [x] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
+- [x] All screenshots added and committed to GitHub repo
 - [x] Linkedin post created.
 
 ---
