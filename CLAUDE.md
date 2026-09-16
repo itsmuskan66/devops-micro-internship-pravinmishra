@@ -14,5 +14,9 @@ Pure HTML5 and CSS3. No JavaScript. No build step. No framework.
 - No JavaScript in this project
 - CSS uses mobile-first approach with breakpoints at 900px, 768px, and 600px
 
+## Design Tokens
+- Hero section background: #0B1120
+- Hero section accent: #38BDF8
+
 ## Safety
 Never put secrets in this file. No API keys, passwords, or AWS credentials.
