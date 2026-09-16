@@ -153,7 +153,7 @@ When asked what made the difference, she pointed to consistency rather than tale
 
 
 ### Public Link
-
+https://lnkd.in/p/eV8N6c-U
 
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -184,9 +184,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes.
 
----
+There was a time when I gave my exam paper without having paid the fee first, because the money that was supposed to go toward it had to be used for my sister's health emergency instead. I submitted the fee later once things were manageable, but during that period, I felt a mix of stress and guilt — not because I wanted to take a shortcut, but because I knew I was technically not supposed to sit for the paper yet. There was also an underlying anxiety about whether I'd get in trouble before I could pay. Looking back, I don't regret the decision itself since my sister's health mattered more in that moment, but I do remember the discomfort of being in a position where I had to make that call.
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
@@ -210,18 +210,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
-
----
+Atomic Habits — James Clear (habits/discipline)
+Deep Work — Cal Newport (focus/productivity)
+The Psychology of Money — Morgan Housel (money mindset)
+How to Win Friends and Influence People — Dale Carnegie (communication)
+Can't Hurt Me — David Goggins (mindset/discipline)
+The 7 Habits of Highly Effective People — Stephen Covey (leadership/life systems)
+Rich Dad Poor Dad — Robert Kiyosaki (money/career)
+Grit — Angela Duckworth (success/perseverance)
+The Lean Startup — Eric Ries (career/tech industry mindset)
+Why We Sleep — Matthew Walker (health)
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
 
@@ -248,18 +246,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-
----
+1. Learning hours per week
+2. Deep work / focused study sessions per week
+3. Projects completed or documented (GitHub commits, blog posts, etc.)
+4. Sleep hours per night
+5. Steps / physical activity per day
+6. Screen time / social media usage per day
+7. Number of DMI tasks completed on time
+8. Books or chapters read per week
+9. Monthly savings or spending tracked
+10. Number of new skills or tools practiced per month
 
 # Assignment 7. Brain Dump + 5-Month System Plan
 
@@ -282,10 +278,9 @@ Examples:
 **Yes / No**
 
 Answer:
+yes
 
-Add your answer here...
 
----
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
 
@@ -295,67 +290,53 @@ Create a simple plan you can realistically follow for the next 5 months.
 
 Example:
 
-* Mon–Thu: 60 min deep work
-* Sat: DMI session
+* Mon,Tue,wed,Fri: 60 min deep work
+* Thursday: DMI session
 * Sun: Weekly review
 
 #### My Weekly Routine
+## Step 2: Your 5-Month Routine + Focus Blocks
 
-Add your answer here...
+**My Weekly Routine**
+- Mon–Fri: 30–45 minutes daily DMI coursework/practice
+- Sat: 1–2 hours — catching up on anything missed + hands-on tasks
+- Sun: Weekly review — going through everything learned that week
 
----
+**Focus Blocks — When Will You Do DMI Work? (Days + Time)**
+Every day, in the evening (around 7 PM – 8 PM), when the day's other responsibilities are done and I can focus without rushing.
 
-### Focus Blocks
+**How Many Sessions Per Week?**
+7 short sessions per week (daily), plus one slightly longer session on Thursday for catch-up.
 
-#### When Will You Do DMI Work? (Days + Time)
+**My Distraction Rules**
+- Phone on silent/Do Not Disturb during the session
+- No social media until the day's task is done
+- Work in a quiet space, away from distractions
+- Keep only the tabs/tools needed for the task open
 
-Add your answer here...
 
-#### How Many Sessions Per Week?
-
-Add your answer here...
-
----
-
-### Distraction Rules
-
-Examples:
-
-* Phone rules
-* Social media rules
-* Environment setup
-
-#### My Distraction Rules
-
-Add your answer here...
-
----
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
-
-Add your answer here...
+I realized I tend to overthink concepts before actually trying them hands-on — once I just started doing the tasks instead of worrying about understanding everything perfectly first, things made more sense.
 
 ### My biggest weakness/loop I noticed
-
-Add your answer here...
+I noticed I sometimes delay starting a task because I'm waiting to feel "ready" or fully prepared, even though starting messy and fixing things along the way works better for me.
 
 ### One system I will implement from this week (exact habit + time)
+Every day at 7 PM, I will start my DMI session with a 2-minute plan of exactly what I want to finish that day, instead of just opening the laptop and figuring it out as I go.
 
-Add your answer here...
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/eV8N6c-U
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: (https://lnkd.in/p/eV8N6c-U)
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
