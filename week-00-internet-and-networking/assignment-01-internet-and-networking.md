@@ -260,19 +260,13 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
-
----
+https://lnkd.in/p/ez65J_PQ
 
 ## LinkedIn Post Backup Copy
 
 Paste the full text of your LinkedIn post here:
+🌐 Week 00 | DevOps Micro Internship (DMI) – Cohort 3 with Agentic AI 🚀Excited to share my Week 00 learning journey! This week, I built a foundation in Internet, Networking, Application Architecture, DNS, and VS Code.🤖 ChatGPT – Used ChatGPT as a learning assistant to understand networking protocols like HTTP, TCP, and IP.🌐 Internet & Networking – Learned about packet switching, IP addressing, TCP/IP, and HTTP/HTTPS.🏗️ App Architecture – Explored two-tier & three-tier architecture, including frontend, backend, and databases, with technologies like React, FastAPI, MySQL, and MongoDB.🔍 DNS – Learned how DNS translates domain names into IP addresses and how A records map domains to IPv4 addresses.💻 VS Code Setup – Practiced using VS Code, terminal, and basic commands.💡 Key Takeaway: This week helped me understand the networking and architecture concepts behind modern applications and strengthened my foundation for DevOps, Cloud, Backend Development, and Agentic AI.🚀 Looking forward to learning and building more! @Pravin Mishra #DevOps #DMI #AgenticAI #Networking #CloudComputing #FastAPI #Python #DNS #VSCode #LearningJourney #DevOpsJourneyP.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: DMI Graded Progress Page · Start your DevOps journey: DMI with Agentic AI
 
-Add your post content here...
-
----
 
 # Reflection – Week 0
 
