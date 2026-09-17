@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+![Screenshot 1](screenshots/a1-ss1.png)
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+![Screenshot 2](screenshots/a1-ss2.png)
 
 ---
 
@@ -34,7 +34,7 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The `.git` folder is a hidden directory that Git creates automatically when you run `git init`. It is the repository itself — it stores everything Git needs to track the project: the full commit history, branch references, configuration settings, the staging area (index), remote URLs, and the object database that holds file content as compressed blobs. Without the `.git` folder, Git has no record of the project and none of the version control commands — such as `git status`, `git commit`, `git log`, or `git branch` — will work. Deleting it would permanently destroy all commit history and revert the folder to a plain directory with no version control. This is why the `.git` folder is considered the heart of a Git repository.
 
 ---
 
@@ -48,7 +48,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Screenshot 3](screenshots/a1-ss3.png)
 
 ---
 
@@ -62,7 +62,21 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Screenshot 4](screenshots/a1-ss4.png)
+
+---
+
+# Task 4 — Share Your Git Setup Progress on WhatsApp Status
+
+## Goal
+
+Share that you have started your Git and version control journey on WhatsApp Status with your leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 5 — Published WhatsApp Status showing your Git setup message and leaderboard progress link
+
+![Screenshot 5](screenshots/a1-ss5.png)
 
 ---
 
@@ -76,11 +90,12 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
-- [ ] Explanation of the `.git` folder written in your own words
-- [ ] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [ ] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [ ] No sensitive data exposed
+- [x] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
+- [x] Explanation of the `.git` folder written in your own words
+- [x] Local `user.name` and `user.email` configured and verified (Screenshot 3)
+- [x] Global `user.name` and `user.email` configured and verified (Screenshot 4)
+- [x] WhatsApp Status published with leaderboard progress link (Screenshot 5)
+- [x] No sensitive data exposed
 
 ---
 
