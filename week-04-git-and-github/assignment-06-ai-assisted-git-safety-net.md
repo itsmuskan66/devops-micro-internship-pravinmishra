@@ -232,9 +232,9 @@ Push the branch and open a Pull Request against my own fork, using the `/pr-read
 
 #### Screenshot 10 — Pull Request showing my fork as base repository
 
-Add your screenshot here.
+![Screenshot 10](screenshots/a6-ss10.png)
 
-**Pull Request URL:** ___________________________
+**Pull Request URL:** https://github.com/javesonfrancoisliu/devops-micro-internship-pravinmishra/pull/1
 
 ### Notes
 
@@ -289,7 +289,7 @@ Paste screenshot of LinkedIn post here:
 - [x] `/pr-ready` run against risky diff and shown flagging issues (Screenshot 7)
 - [x] Risky file fixed; `git commit` succeeds cleanly (Screenshot 8)
 - [x] `/pr-ready` re-run showing clean report and drafted PR title + description (Screenshot 9)
-- [ ] Pull Request opened with my own fork as the base repository (Screenshot 10)
+- [x] Pull Request opened with my own fork as the base repository (Screenshot 10)
 - [x] Agentic Loop mapping (Task 7) completed
 - [x] All written answers completed
 - [x] No real secrets or credentials exposed anywhere
