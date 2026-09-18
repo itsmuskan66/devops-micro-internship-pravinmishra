@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-3%2F14-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-4%2F14-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
 > Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
@@ -80,7 +80,7 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
 <!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -134,7 +134,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmi-devops-micro-internship-with-agentic-activity-7505302452448096256-Jvbf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g) | [Blog Post](https://javesonfrancoisliu.vercel.app/blog/dmi-w1-mindset) |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-agenticai-claudecode-activity-7505904949797515264-GoFN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g) | [Blog Post](https://javesonfrancoisliu.vercel.app/blog/dmi-w2-claude) |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | [A03](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-linux-nginx-share-7506239591885180929-5G5f/) · [A04](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-nginx-aws-activity-7506260309259710465-eEnH) · [A05](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-bash-linux-activity-7506269590411288576-neiG) · [A06](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-linux-bash-ugcPost-7506295478741999616-1ihx/) | [Blog Post](https://javesonfrancoisliu.vercel.app/blog/dmi-w3-linux) |
-| 04 | Git & GitHub | 🔄 In Progress | ⏳ Pending | [A01](https://dmi.pravinmishra.com/s/javesonfrancoisliu.html) · [A02](https://lnkd.in/p/eadSxexB) · [A05](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-git-github-activity-7506742678269669376-sJcc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g) | — |
+| 04 | Git & GitHub | 🔄 In Progress | ⏳ Pending | [A01](https://dmi.pravinmishra.com/s/javesonfrancoisliu.html) · [A02](https://lnkd.in/p/eadSxexB) · [A05](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-git-github-activity-7506742678269669376-sJcc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g) · [A06](https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-git-github-activity-7506748944421445633-cp9k?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g) | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
