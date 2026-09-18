@@ -272,9 +272,11 @@ The hook enforces hard rules instantly and reliably — it catches known pattern
 
 ## LinkedIn Post
 
-Paste LinkedIn Post URL here: ___________________________
+LinkedIn Post URL: https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-git-github-activity-7506748944421445633-cp9k?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g
 
-Paste screenshot of LinkedIn post here:
+### Screenshot 11 — LinkedIn post published
+
+![Screenshot 11](screenshots/a6-ss11.png)
 
 ---
 
@@ -293,7 +295,7 @@ Paste screenshot of LinkedIn post here:
 - [x] Agentic Loop mapping (Task 7) completed
 - [x] All written answers completed
 - [x] No real secrets or credentials exposed anywhere
-- [ ] LinkedIn post published and URL submitted
+- [x] LinkedIn post published and URL submitted
 
 ---
 
