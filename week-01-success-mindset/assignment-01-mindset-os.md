@@ -331,12 +331,12 @@ Every day at 7 PM, I will start my DMI session with a 2-minute plan of exactly w
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
-
-https://lnkd.in/p/eV8N6c-U
+    
+   https://lnkd.in/p/dCT3utzb
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL:(https://lnkd.in/p/dCT3utzb)
+- LinkedIn Post URL: https://lnkd.in/p/dCT3utzb   
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
