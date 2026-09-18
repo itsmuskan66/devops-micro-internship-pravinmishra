@@ -1,4 +1,4 @@
-# Assignment 5 — Open-Source Collaboration: Fork, Clone, Sync & Pull Request
+# Assignment 5 — Open-Source Collaboration: Fork, Sync & Pull Request
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Purpose
 
-In this assignment, you will contribute one small documentation change to a shared repository using a standard open-source collaboration workflow: fork, clone, configure remotes, branch, commit, sync with upstream, push, and open a Pull Request. This is a different, separate practice repository from the one you submit your DMI work in.
+In this assignment, I contributed one small documentation change to a shared repository using a standard open-source collaboration workflow: fork, clone, feature branch, commit, sync with upstream, push, and open a Pull Request.
 
 ---
 
@@ -14,13 +14,15 @@ In this assignment, you will contribute one small documentation change to a shar
 
 ## Goal
 
-Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub account.
+Create a copy of the upstream repository under my GitHub account.
 
 ### Evidence
 
-#### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
+#### Screenshot 1 — Fork page with username and repository name visible in the browser URL
 
-Add your screenshot here.
+![Screenshot 1](screenshots/a5-ss1.png)
+
+**Fork URL:** https://github.com/javesonfrancoisliu/devops-micro-internship-interviews
 
 ---
 
@@ -28,27 +30,36 @@ Add your screenshot here.
 
 ## Goal
 
-Configure one authentication method — HTTPS with a Personal Access Token, or SSH — so you can push to your fork. Use only one method.
+Confirm SSH authentication is working from the terminal.
 
 ### Evidence
 
-#### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
+#### Screenshot 2 — Output of `ssh -T git@github.com` showing successful authentication
 
-Add your screenshot here.
+![Screenshot 2](screenshots/a5-ss2.png)
 
 ---
 
-# Task 2 — Clone Your Fork and Configure Remotes
+# Task 2 — Clone Your Fork Locally and Configure Remotes
 
 ## Goal
 
-Clone your fork locally, then add the original repository as `upstream`.
+Create a local working copy where `origin` points to my fork and `upstream` points to the original repository.
+
+### Commands used
+
+```bash
+git clone git@github.com:javesonfrancoisliu/devops-micro-internship-interviews.git
+cd devops-micro-internship-interviews
+git remote add upstream https://github.com/pravinmishraaws/devops-micro-internship-interviews.git
+git remote -v
+```
 
 ### Evidence
 
-#### Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
+#### Screenshot 3 — Output of `git remote -v` showing origin and upstream correctly
 
-Add your screenshot here.
+![Screenshot 3](screenshots/a5-ss3.png)
 
 ---
 
@@ -56,19 +67,36 @@ Add your screenshot here.
 
 ## Goal
 
-Create the branch `feature-readme-update`, add only your own entry (`Full Name — Group <Group Name/Number>`) to the Student List at the end of `pull_request.md`, and commit it with the message `docs: add my name to student list`.
+Create `feature-readme-update`, add my entry to `pull_request.md`, and commit with the required message.
+
+### Entry added
+
+```
+Javeson Francois Liu — Cohort 3
+```
+
+### Commands used
+
+```bash
+git checkout -b feature-readme-update
+# edited pull_request.md — appended entry at end of Student List
+git status
+git add pull_request.md
+git commit -m "docs: add my name to student list"
+git log --oneline -3
+```
 
 ### Evidence
 
-#### Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
+#### Screenshot 4 — `git status` showing `pull_request.md` modified before staging
 
-Add your screenshot here.
+![Screenshot 4](screenshots/a5-ss4.png)
 
 ---
 
-#### Screenshot 5 — Output of `git commit`
+#### Screenshot 5 — `git commit` output
 
-Add your screenshot here.
+![Screenshot 5](screenshots/a5-ss5.png)
 
 ---
 
@@ -76,19 +104,30 @@ Add your screenshot here.
 
 ## Goal
 
-Fetch and merge `upstream/main` into your local default branch, rebase your feature branch onto it, then push `feature-readme-update` to your fork.
+Fetch upstream, merge into local main, rebase feature branch, push to origin.
+
+### Commands used
+
+```bash
+git fetch upstream
+git checkout main
+git merge upstream/main
+git checkout feature-readme-update
+git rebase main
+git push -u origin feature-readme-update
+```
 
 ### Evidence
 
-#### Screenshot 6 — Output of `git push -u origin feature-readme-update` showing a successful push
+#### Screenshot 6 — Output of `git push -u origin feature-readme-update`
 
-Add your screenshot here.
+![Screenshot 6](screenshots/a5-ss6.png)
 
 ---
 
-#### Screenshot 7 — Your fork on GitHub showing `feature-readme-update` in the branch selector or a "Compare & pull request" banner
+#### Screenshot 7 — Fork on GitHub showing `feature-readme-update` branch
 
-Add your screenshot here.
+![Screenshot 7](screenshots/a5-ss7.png)
 
 ---
 
@@ -96,76 +135,66 @@ Add your screenshot here.
 
 ## Goal
 
-Open a Pull Request from `feature-readme-update` on your fork to `main` on the upstream repository, using the title `docs: add my name to student list`.
+Open a Pull Request from `feature-readme-update` in my fork to `main` in the upstream repository.
+
+### Pull Request Details
+
+| Field | Value |
+|---|---|
+| Base repository | `pravinmishraaws/devops-micro-internship-interviews` |
+| Base branch | `main` |
+| Head repository | `javesonfrancoisliu/devops-micro-internship-interviews` |
+| Compare branch | `feature-readme-update` |
+| PR Title | `docs: add my name to student list` |
+| PR URL | https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/475 |
 
 ### Evidence
 
-#### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
+#### Screenshot 8 — Pull Request page showing correct base/head repositories and title
 
-Add your screenshot here.
-
----
-
-#### Screenshot 9 — Successfully created Pull Request page with the PR number visible
-
-Add your screenshot here.
+![Screenshot 8](screenshots/a5-ss8.png)
 
 ---
 
-#### Pull Request URL
+#### Screenshot 9 — Successfully created Pull Request with PR #475 visible
 
-Paste your Pull Request URL here:
-
-`Add your URL here`
-
----
-
-# LinkedIn Post (Required)
-
-## Evidence
-
-#### LinkedIn Post URL
-
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
-
----
-
-#### Screenshot — LinkedIn post showing your successfully created Pull Request
-
-Add your screenshot here.
+![Screenshot 9](screenshots/a5-ss9.png)
 
 ---
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
-- Do not expose a Personal Access Token, SSH private key, password, or authentication secret
-- Only your own entry in `pull_request.md` may be added — do not edit or delete another student's entry
-- Include your fork URL and Pull Request URL
+- Fork URL: https://github.com/javesonfrancoisliu/devops-micro-internship-interviews
+- Pull Request URL: https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/475
+- Screenshots 1–9 included above
 
 ---
 
-## Fork URL
+## LinkedIn Post
 
-Paste your fork URL here:
+Paste LinkedIn Post URL here: ___________________________
 
-`Add your URL here`
+Paste screenshot of LinkedIn post here:
 
 ---
 
 # Completion Checklist
 
-- [ ] Upstream repository forked to your GitHub account (Screenshot 1)
-- [ ] GitHub authentication configured securely (Screenshot 2)
-- [ ] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
-- [ ] Only `pull_request.md` modified, with your own entry added (Screenshots 4–5)
-- [ ] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
-- [ ] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
-- [ ] Fork URL and Pull Request URL included
-- [ ] LinkedIn post published and URL submitted
-- [ ] No PAT, password, private key, or authentication secret exposed
+- [x] Upstream repository forked to GitHub account (Screenshot 1)
+- [x] GitHub SSH authentication confirmed (Screenshot 2)
+- [x] Fork cloned locally
+- [x] `origin` points to my fork (Screenshot 3)
+- [x] `upstream` points to `pravinmishraaws/devops-micro-internship-interviews` (Screenshot 3)
+- [x] `feature-readme-update` branch created and used
+- [x] Only `pull_request.md` modified
+- [x] Entry added at end of Student List
+- [x] Required commit message `docs: add my name to student list` used
+- [x] Local main synchronized with `upstream/main`
+- [x] Feature branch rebased and pushed to origin (Screenshots 6–7)
+- [x] Pull Request targets correct upstream repo and main branch (Screenshots 8–9)
+- [x] Screenshots 1–9 included and readable
+- [ ] Mandatory LinkedIn post completed and linked
+- [x] No PAT, password, private key, or authentication secret exposed
 
 ---
 
