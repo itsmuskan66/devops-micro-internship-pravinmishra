@@ -303,7 +303,7 @@ Example:
 - Sun: Weekly review — going through everything learned that week
 
 **Focus Blocks — When Will You Do DMI Work? (Days + Time)**
-Every day, in the evening (around 7 PM – 8 PM), when the day's other responsibilities are done and I can focus without rushing.
+Every day, in the evening (around 11 PM – 12 PM), when the day's other responsibilities are done and I can focus without rushing.
 
 **How Many Sessions Per Week?**
 7 short sessions per week (daily), plus one slightly longer session on Thursday for catch-up.
@@ -336,7 +336,7 @@ https://lnkd.in/p/eV8N6c-U
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: (https://lnkd.in/p/eV8N6c-U)
+- LinkedIn Post URL:(https://lnkd.in/p/dCT3utzb)
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
