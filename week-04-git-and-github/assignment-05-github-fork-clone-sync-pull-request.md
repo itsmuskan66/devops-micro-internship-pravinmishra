@@ -172,9 +172,11 @@ Open a Pull Request from `feature-readme-update` in my fork to `main` in the ups
 
 ## LinkedIn Post
 
-Paste LinkedIn Post URL here: ___________________________
+LinkedIn Post URL: https://www.linkedin.com/posts/javeson-francois-liu-999135437_dmibypravinmishra-git-github-activity-7506742678269669376-sJcc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG4wFkUBa3UKaFy_wDsgcorcmYbDo44e5-g
 
-Paste screenshot of LinkedIn post here:
+### Screenshot 10 — LinkedIn post published
+
+![Screenshot 10](screenshots/a5-ss10.png)
 
 ---
 
@@ -193,7 +195,7 @@ Paste screenshot of LinkedIn post here:
 - [x] Feature branch rebased and pushed to origin (Screenshots 6–7)
 - [x] Pull Request targets correct upstream repo and main branch (Screenshots 8–9)
 - [x] Screenshots 1–9 included and readable
-- [ ] Mandatory LinkedIn post completed and linked
+- [x] Mandatory LinkedIn post completed and linked
 - [x] No PAT, password, private key, or authentication secret exposed
 
 ---
