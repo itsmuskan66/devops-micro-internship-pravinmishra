@@ -330,7 +330,7 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: https://lnkd.in/p/dCT3utzb   
-- Blog / Medium : **N/A**  
+- Blog / Medium : https://dev.to/sakeena_sajid_02de330ed40/from-late-night-learner-to-systems-engineer-how-sakeena-sajid-built-consistency-into-a-career-5d8b
 
 ---
 
