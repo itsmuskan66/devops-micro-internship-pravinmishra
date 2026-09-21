@@ -127,7 +127,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://lnkd.in/p/d646DUUW | https://dev.to/sakeena_sajid_02de330ed40/week-00-learning-the-internets-foundations-devops-micro-internship-5d5 |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | www.linkedin.com/posts/sakeena-sajid-9929a62bb_devops-dmi-agenticai-share-7506651124070875136-1Hgd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEza8_4BZ1CU1SUt0EKaQnD8hNTCcM8itp0|[ https://dev.to/sakeena_sajid_02de330ed40/week-00-learning-the-internets-foundations-devops-micro-internship-5d5]|
 | 01 | Success Mindset|✅ Completed | ✅ Solved  | https://lnkd.in/p/dCT3utzb | https://dev.to/sakeena_sajid_02de330ed40/from-late-night-learner-to-systems-engineer-how-sakeena-sajid-built-consistency-into-a-career-5d8b |
 | 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
