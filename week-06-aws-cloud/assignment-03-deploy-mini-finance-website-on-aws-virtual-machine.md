@@ -52,7 +52,13 @@ Start the web server and confirm the Mini Finance website is accessible through 
 
 Take one screenshot showing the Mini Finance website running in the browser.
 
-Add your screenshot here.
+**Screenshot 1 - Mini Finance website served from the EC2 public IP**
+
+![Mini Finance website running on EC2](screenshots/a3-ss1.png)
+
+**Supporting evidence - SSH session: repo cloned, files copied to `/var/www/html`, Nginx `active (running)`**
+
+![SSH session showing clone, web root and Nginx status](screenshots/a3-ss2.png)
 
 ---
 
@@ -60,7 +66,36 @@ Add your screenshot here.
 
 Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`):
 
-`Add your URL here`
+**http://56.69.198.250**
+
+| Item | Value |
+|---|---|
+| Instance | `dmi-w06-a03` (`t3.micro`, Ubuntu 22.04 LTS) |
+| Region / AZ | `ap-southeast-5` (Malaysia) / `ap-southeast-5b` |
+| Subnet | Public subnet (auto-assign public IPv4 enabled) |
+| Security group | `dmi-w06-a03-sg`: SSH 22 from my IP only (`/32`), HTTP 80 from `0.0.0.0/0` |
+| Web server | Nginx 1.18.0, enabled at boot |
+| Web root | `/var/www/html` (Mini Finance files copied from the cloned repo) |
+
+### Commands Used
+
+```bash
+ssh -i ~/dmi-w03-key.pem ubuntu@56.69.198.250
+sudo apt update && sudo apt install -y nginx git
+git clone https://github.com/pravinmishraaws/mini_finance.git
+sudo rm -rf /var/www/html/* && sudo cp -r mini_finance/* /var/www/html/ && ls /var/www/html
+sudo systemctl enable --now nginx && systemctl status nginx --no-pager | head -5
+```
+
+### Verification
+
+- `curl -I http://56.69.198.250/` returns `200 OK` with `Server: nginx/1.18.0 (Ubuntu)`
+- Page title: `Mini Finance — Simple Personal Budget Tracker`
+- CSS (`css/bootstrap.min.css`, `css/tooplate-mini-finance.css`) and images (`images/social/*.png`) all return `200`, so styling and assets load
+
+### Note
+
+SSH is restricted to my own IP instead of `0.0.0.0/0`. When my ISP/VPN IP changed mid-task, SSH timed out; I added the new `/32` rule rather than opening port 22 to the world.
 
 ---
 
@@ -74,13 +109,13 @@ Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`
 
 # Completion Checklist
 
-- [ ] EC2 instance launched in a public subnet with SSH (22) and HTTP (80) allowed
-- [ ] Connected to the instance via SSH
-- [ ] Web server (Nginx or Apache) installed
-- [ ] Mini Finance repository cloned and files copied to the web server root
-- [ ] Web server started and website verified in the browser (Screenshot 1)
-- [ ] EC2 Public IP URL included
-- [ ] No sensitive data exposed
+- [x] EC2 instance launched in a public subnet with SSH (22) and HTTP (80) allowed
+- [x] Connected to the instance via SSH
+- [x] Web server (Nginx or Apache) installed
+- [x] Mini Finance repository cloned and files copied to the web server root
+- [x] Web server started and website verified in the browser (Screenshot 1)
+- [x] EC2 Public IP URL included
+- [x] No sensitive data exposed
 
 ---
 
