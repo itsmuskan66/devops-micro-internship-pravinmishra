@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-4%2F14-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-7%2F14-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
 > Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
@@ -86,7 +86,7 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
+[![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
 
 <!-- Week 07 → Azure Cloud -->
 <!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->

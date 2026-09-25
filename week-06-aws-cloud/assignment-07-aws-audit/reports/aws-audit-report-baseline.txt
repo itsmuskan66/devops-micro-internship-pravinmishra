@@ -1,0 +1,22 @@
+========================================
+AWS Security and Cost Audit Report
+========================================
+Full Name: Javeson Francois Liu
+Timestamp: 2026-09-25T03:11:10Z
+AWS Region: ap-southeast-5
+S3 Bucket: pravin-portfolio-javeson-ap-southeast-5
+RDS Instance: bookreview-db
+
+[PASS] S3 bucket 'pravin-portfolio-javeson-ap-southeast-5' blocks and ignores public ACLs (public read, if any, comes only from its scoped bucket policy)
+[FAIL] 1 security group(s) allow SSH (port 22) from 0.0.0.0/0: sg-071f558f5a65c8b69
+[PASS] No security group allows MySQL (port 3306) from 0.0.0.0/0
+[WARN] Could not determine public accessibility for RDS instance 'bookreview-db' (instance not found or insufficient permission)
+[WARN] 3 EBS volume(s) are not encrypted
+
+Summary:
+PASS: 2
+WARN: 2
+FAIL: 1
+Overall Status: FAIL
+Script Exit Code: 2
+Report File: /Users/javesonfrancoisliu/week-06-aws-audit/reports/aws-audit-report.txt
