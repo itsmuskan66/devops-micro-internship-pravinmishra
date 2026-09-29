@@ -28,7 +28,7 @@ Add your screenshot here.
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
 Claude Code terminal and authentication code :
-![claude version](./screenshots/authentication 1.png)
+![claude version](./screenshots/authentication%1.png)
 
 # Task 2 — Fork and Clone the Starter Repository
 
