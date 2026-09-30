@@ -50,7 +50,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-![First Question](./screenshots/A2_Task3.jpg)
+![First Question](./screenshots/Task3_A2.jpg)
 
 
 
@@ -64,6 +64,7 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
+![First Question](./screenshots/Task4_A2.jpg)
 
 
 
