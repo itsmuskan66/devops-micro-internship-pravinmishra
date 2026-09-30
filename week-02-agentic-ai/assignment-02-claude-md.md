@@ -83,8 +83,8 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-![First Question](./screenshots/Task6_A2,jpg)
-![First Question](./screenshots/Task6(2)_A2,jpg)
+![First Question](./screenshots/Task6_A2.jpg)
+![First Question](./screenshots/Task6(2)_A2.jpg)
 
 # Submission Instructions
 
@@ -98,9 +98,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Paste your forked repository URL here:
 
-`Add your URL here`
 
----
 
 # Completion Checklist
 
