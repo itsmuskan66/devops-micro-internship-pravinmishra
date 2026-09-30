@@ -20,6 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 ![First Question](./screenshots/A2_S1.jpg)
+also:
 ![First Question](./screenshots/A2_S2.jpg)
 
 
