@@ -50,8 +50,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-![First Question](./screenshots/A2_S4.jpg)
-![First Question](./screenshots/A2_S5.jpg)
+![First Question](./screenshots/A2_Task3.jpg)
 
 
 
