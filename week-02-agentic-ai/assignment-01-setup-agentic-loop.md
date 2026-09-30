@@ -42,11 +42,12 @@ Authentication code:
 
 Fork the provided GitHub repository, clone it to your local machine, and open it in VS Code.
 
-![New Project](./screenshots/Project_Forked_Cloned.jpeg)
 
 ### Evidence
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
+
+![New Project](./screenshots/Project_Forked_Cloned.jpeg)
 
 Add your screenshot here.
 
@@ -61,6 +62,9 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 ### Evidence
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
+![First Question](./screenshots/F1.jpeg)
+![First Question](./screenshots/F2.jpeg)
+![First Question](./screenshots/F3.jpeg)
 
 Add your screenshot here.
 
