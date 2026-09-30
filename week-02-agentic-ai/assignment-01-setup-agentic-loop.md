@@ -28,9 +28,11 @@ Add your screenshot here.
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
 Claude Code terminal  :
+
 ![claude version](./screenshots/authentication%1.png)
 
-authentication code:
+Authentication code:
+
 ![claude version](./screenshots/authentication_2.jpeg)
 
 
@@ -39,6 +41,7 @@ authentication code:
 ## Goal
 
 Fork the provided GitHub repository, clone it to your local machine, and open it in VS Code.
+
 ![New Project](./screenshots/Project_Forked_Cloned.jpeg)
 
 ### Evidence
