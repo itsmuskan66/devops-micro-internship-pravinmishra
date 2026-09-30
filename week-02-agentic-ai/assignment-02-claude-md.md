@@ -19,10 +19,10 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 ### Evidence
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
-![First Question](./screenshots/A2-S1.jpg)
+![First Question](./screenshots/A2_S1.jpg)
 
 
-![First Question](./screenshots/A2-S2.jpg)
+![First Question](./screenshots/A2_S2.jpg)
 
 
 
@@ -38,7 +38,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-![First Question](./screenshots/A2-S3.jpg)
+![First Question](./screenshots/A2_S3.jpg)
 
 
 # Task 3 — Customize the CLAUDE.md
