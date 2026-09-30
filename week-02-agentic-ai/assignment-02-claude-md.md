@@ -50,7 +50,6 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
 ![First Question](./screenshots/A2_S4.jpg)
 ![First Question](./screenshots/A2_S5.jpg)
 
@@ -65,10 +64,10 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 ### Evidence
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
+![First Question](./screenshots/A2_S6.jpg)
 
-Add your screenshot here.
 
----
+
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
