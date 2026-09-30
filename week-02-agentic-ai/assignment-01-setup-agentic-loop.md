@@ -21,7 +21,6 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 #### Screenshot 1 â€” Terminal showing `claude --version` with the version number visible
 ![claude version](./screenshots/claude_version.jpeg)
 
-Add your screenshot here.
 
 ---
 
@@ -74,7 +73,8 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 
 Add your screenshot here.
 
----
+![First Question](./screenshots/Que5.jpg)
+
 
 # Submission Instructions
 
