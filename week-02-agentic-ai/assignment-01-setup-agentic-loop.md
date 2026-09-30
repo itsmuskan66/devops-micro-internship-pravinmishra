@@ -31,7 +31,7 @@ Claude Code terminal  :
 ![claude version](./screenshots/authentication%1.png)
 
 authentication code:
-![claude version](./screenshots/authentication_2.jpg)
+![claude version](./screenshots/authentication_2.jpeg)
 
 
 # Task 2 — Fork and Clone the Starter Repository
@@ -39,6 +39,7 @@ authentication code:
 ## Goal
 
 Fork the provided GitHub repository, clone it to your local machine, and open it in VS Code.
+![New Project](./screenshots/Project_Forked_Cloned.jpeg)
 
 ### Evidence
 
