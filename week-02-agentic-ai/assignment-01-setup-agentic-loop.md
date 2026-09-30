@@ -62,9 +62,11 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 ### Evidence
 
 #### Screenshot 4 â€” Claude's response to the first question, showing it read the files (tool calls visible)
-![First Question](./screenshots/F1.jpg)
-![First Question](./screenshots/F2.jpg)
-![First Question](./screenshots/F3.jpg)
+![First Question](./screenshots/que1.jpg)
+![First Question](./screenshots/Que2.jpg)
+![First Question](./screenshots/Que3.jpg)
+![First Question](./screenshots/Que4.jpg)
+
 
 
 
