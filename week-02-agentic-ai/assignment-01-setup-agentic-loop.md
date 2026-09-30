@@ -29,7 +29,7 @@ Add your screenshot here.
 
 Claude Code terminal  :
 
-![claude version](./screenshots/authentication%1.png)
+![claude version](./screenshots/authentication 1.png)
 
 Authentication code:
 
