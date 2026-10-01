@@ -33,14 +33,12 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-![First Question](./screenshots/A2_S2.jpg)
+![First Question](./screenshots/A3_S2.jpg)
 
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/A3_S3.png)
 
 # Task 3 — Run /scaffold-terraform
 
@@ -51,10 +49,10 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 ### Evidence
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
+![First Question](./screenshots/A3_S4.jpg)
 
-Add your screenshot here.
 
----
+
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
