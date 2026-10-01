@@ -56,9 +56,9 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
+![First Question](./screenshots/A3_S5.jpg)
 
----
+
 
 # Task 4 — Run terraform init and /tf-plan
 
@@ -69,10 +69,9 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 ### Evidence
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
+![First Question](./screenshots/A3_S6.jpg)
 
-Add your screenshot here.
 
----
 
 # Submission Instructions
 
