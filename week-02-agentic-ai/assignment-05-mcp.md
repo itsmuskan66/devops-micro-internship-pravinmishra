@@ -20,6 +20,7 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 ![Assignment5](./screenshots/A5-s1.jpg)
+![claude version](./screenshots/a5_s2.jpg)
 
 
 
@@ -32,8 +33,8 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 ### Evidence
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
-![claude version](./screenshots/a5_s2.jpg)
 
+![claude version](./screenshots/a5_s3.jpg)
 
 # Task 3 — Add Your Token to settings.local.json
 
@@ -44,8 +45,8 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 ### Evidence
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
-![claude version](./screenshots/a5_s3.jpg)
 
+![claude version](./screenshots/A5-s4.jpg)
 
 # Task 4 — Verify the Connection with /mcp
 
@@ -56,8 +57,8 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 ### Evidence
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
-![claude version](./screenshots/A5-s4.jpg)
 
+![claude version](./screenshots/A5_S5.jpg)
 
 
 # Task 5 — Run a Live GitHub Query
@@ -69,7 +70,6 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 ### Evidence
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
-![claude version](./screenshots/A5_S5.jpg)
 ![claude version](./screenshots/A5-S6.jpg)
 ![claude version](./screenshots/A5_S7.jpg)
 
