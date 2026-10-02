@@ -20,7 +20,6 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
 ![aSIGNMENT4](./screenshots/A4_s1.jpg)
 
 
@@ -47,7 +46,6 @@ The tf-writer agent is responsible for generating and modifying Terraform code, 
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
 ![aSIGNMENT4](./screenshots/A4_s2.jpg)
 
 ---
@@ -68,14 +66,12 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
 ![aSIGNMENT4](./screenshots/A4_S4.jpg)
 
 
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
 ![aSIGNMENT4](./screenshots/A4_S5.jpg)
 
 
@@ -90,7 +86,6 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
 ![aSIGNMENT4](./screenshots/A4_S6.jpg)
 ![aSIGNMENT4](./screenshots/A4_S7.jpg)
 
