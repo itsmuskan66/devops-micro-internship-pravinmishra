@@ -19,7 +19,7 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 ### Evidence
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
-![Assignment5](./screenshots/A5_s1.jpeg)
+![Assignment5](./screenshots/A5_s1.jpg)
 
 
 
@@ -56,7 +56,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 ### Evidence
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
-![claude version](./screenshots/A5_s4.jpeg)
+![claude version](./screenshots/A5_s4.jpg)
 
 
 
@@ -69,9 +69,9 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 ### Evidence
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
-![claude version](./screenshots/A5_S5.jpeg)
-![claude version](./screenshots/A5_S6.jpeg)
-![claude version](./screenshots/A5_S7.jpeg)
+![claude version](./screenshots/A5_S5.jpg)
+![claude version](./screenshots/A5_S6.jpg)
+![claude version](./screenshots/A5_S7.jpg)
 
 
 
