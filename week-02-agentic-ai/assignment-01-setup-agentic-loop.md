@@ -48,8 +48,6 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 ![New Project](./screenshots/Project_Forked_Cloned.jpeg)
 
-
-
 # Task 3 — Observe the Agentic Loop
 
 ## Goal
