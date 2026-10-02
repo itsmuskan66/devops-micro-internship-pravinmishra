@@ -88,8 +88,8 @@ Paste your forked repository URL here:
 https://github.com/itsmuskan66/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ## LinkedIn post URL
+https://lnkd.in/p/d9h63ZH6
 
- https://www.linkedin.com/posts/sakeena-sajid-9929a62bb_devops-terraform-claudeai-share-7511470403706544128-nknw/?utm_source=share&utm_medium=member_android&rcm=ACoAAEza8_4BZ1CU1SUt0EKaQnD8hNTCcM8itp0
 
 
 # Completion Checklist
