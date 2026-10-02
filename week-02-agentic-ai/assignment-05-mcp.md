@@ -32,7 +32,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 ### Evidence
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
-![claude version](./screenshots/a5_s2.jpeg)
+![claude version](./screenshots/a5_s2.jpg)
 
 
 # Task 3 — Add Your Token to settings.local.json
@@ -44,7 +44,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 ### Evidence
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
-![claude version](./screenshots/A5_s3.jpeg)
+![claude version](./screenshots/a5_s3.jpg)
 
 
 # Task 4 — Verify the Connection with /mcp
