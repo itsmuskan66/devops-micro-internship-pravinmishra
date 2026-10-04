@@ -45,18 +45,15 @@ You can publish your blog on:
 ### Evidence
 
 #### Screenshot 1 — Blog published and visible
+![First Question](./screenshots/DEV-SS.jpg)
 
-Add your screenshot here.
 
----
 
 ### Submission Field
 
 Blog Link:
 
-`Add your URL here`
-
----
+https://dev.to/sakeena_sajid_02de330ed40/reflection-week-2-3cf6
 
 # Task 2 — Create LinkedIn Post
 
