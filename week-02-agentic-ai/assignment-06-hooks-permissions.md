@@ -47,7 +47,7 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
-![claude version](./screenshots/A6_s3.jpg)
+![claude version](./screenshots/A6-s3.jpg)
 
 # Task 4 — Create the PostToolUse Hook Script
 
