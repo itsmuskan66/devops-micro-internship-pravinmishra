@@ -89,9 +89,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
 
----
 ![First Question](./screenshots/linkedin-post.jpg)
 
 ### Submission Field
