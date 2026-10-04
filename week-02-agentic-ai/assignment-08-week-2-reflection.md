@@ -92,22 +92,34 @@ Your post must include:
 Add your screenshot here.
 
 ---
+![First Question](./screenshots/linkedin-post.jpg)
 
 ### Submission Field
 
 LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
-```
 
----
+🔒 What happens when you ask an AI to run a destructive command? With the right guardrails — it refuses.
+
+Ending  Week 2 journey in the DevOps Micro Internship (DMI) this time exploring Hooks and Permissions in Claude Code.
+
+I set up a PreToolUse hook that intercepts any Bash command before execution and checks it against a list of dangerous patterns. Then I tried to actually break it:
+
+🔹 Asked Claude to delete all files in the Terraform folder → blocked at the prompt level, before it even reached a tool call
+🔹 Directly asked it to run terraform destroy → the PreToolUse hook caught it and stopped execution, warning that this would permanently destroy AWS resources (S3 buckets, CloudFront distributions) managed by Terraform in this project
+🔹 Had to explicitly confirm before the destructive command was even considered
+
+What stood out to me: this isn't the AI being "cautious" out of politeness — it's an actual enforced permission boundary, sitting between the model's decision and the shell executing it. Same principle as least-privilege access control, just applied to an AI agent instead of a user account.
+
+This is the part of agentic AI that feels genuinely production-relevant to me — giving an AI real capability, but with hard technical guardrails instead of just hoping it behaves.
+Special thank to Pravin Mishra and Anjana Muthunayake for delivering their great knowledge.✨☺️
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI. (https://lnkd.in/eZk55sPs). My graded progress is public: https://lnkd.in/eg8MhnM3 · Start your DevOps journey: https://lnkd.in/d6Xu232S
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/dsJQggYg
 
 # Submission Instructions
 
@@ -121,15 +133,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+ [✅ ] Blog written with required structure
+ [✅ ] Blog includes at least 2–3 Week 2 topics
+ [✅ ] Blog is publicly accessible
+ [✅ ] LinkedIn post created
+ [✅ ] Required P.S. line included
+ [✅ ] LinkedIn post content copied in submission field
+ [✅ ] Blog link added
+ [✅ ] LinkedIn post link added
+[✅ ] Screenshots added to GitHub repo
 
 ---
 
