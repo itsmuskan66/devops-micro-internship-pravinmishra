@@ -84,7 +84,7 @@ Prove the prompt-level hook works by typing a destructive prompt and verifying i
 ### Evidence
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
-![claude version](./screenshots/A6_s6.jpg)
+![claude version](./screenshots/A6_s6.1.jpg)
 
 
 # Task 7 — Test the PreToolUse Hook
@@ -96,7 +96,7 @@ Prove the tool-level hook works by asking Claude to execute a dangerous Bash com
 ### Evidence
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
-![claude version](./screenshots/A6_s7.jpg)
+![claude version](./screenshots/A6_s6.jpg)
 
 ---
 
@@ -109,10 +109,10 @@ Prove the logging hook runs after a successful command execution and records Ter
 ### Evidence
 
 #### Screenshot 8 — Claude running terraform validate successfully
-![claude version](./screenshots/A6_s8.jpg)
+![claude version](./screenshots/A6_s7.jpg)
 
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
-![claude version](./screenshots/A6_s9.jpg)
+![claude version](./screenshots/A6_s8.jpg)
 
 ---
 
