@@ -175,21 +175,17 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![First Question](./screenshots/S15.png)
 
----
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![First Question](./screenshots/S16.png)
 
----
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/S17.png)
 
 ### Notes
 
@@ -197,9 +193,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
-
----
+I confirm it in three steps. First, I run ls -lah /var/www/html to check that the build files (index.html and the static/ folder) are present and have recent timestamps, which shows the latest build was copied to the web root. Second, I run grep -R "Deployed by" -n /var/www/html, which finds my personalized text (my name) inside the deployed files, proving that Nginx is serving the new build and not an old one or only the source code. Third, I open http://<public-ip> in the browser and check that my name is visible on the page, and I verify with grep -n "try_files" that the Nginx config contains try_files $uri /index.html; so React routing works.
 
 # Task 6 — Nginx Configuration Failure Simulation
 
