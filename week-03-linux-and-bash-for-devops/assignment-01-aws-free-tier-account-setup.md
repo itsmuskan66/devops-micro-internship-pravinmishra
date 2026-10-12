@@ -20,21 +20,19 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is my personal login and workspace on Amazon’s cloud platform. It lets me create and manage resources like servers, storage and databases, and it also keeps track of billing and access permissions. I need it at this stage because every later task in this internship, such as launching servers or deploying EpicReads, has to be done inside an AWS account.
 
----
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
+AWS Free Tier lets new users try AWS services without paying while they learn. New accounts get $100 in credits at sign-up and can earn another $100 by completing activities. The Free plan lasts up to 6 months or until the credits run out, whichever comes first. Some services also stay free permanently within monthly limits (Always Free)
 
-Write your answer here.
-
----
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+AWS Lambda: 1 million free requests per month. 
+Amazon DynamoDB: 25 GB of free storage. 
+Amazon SNS: 1 million free publishes per month.
 
----
 
 # Task 2 — Create AWS Free Tier Account
 
@@ -56,9 +54,8 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+![First Question](./screenshots/W3_A1_S1.png)
 
----
 
 # Submission Instructions
 
@@ -70,11 +67,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
-- [ ] All required screenshots added to repository
+ [✅ ] Task 1 answers written in own words
+ [✅ ] AWS Free Tier account created successfully
+ [✅ ] Signed in to AWS Management Console
+ [✅ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+ [✅ ] All required screenshots added to repository
 
 ---
 
