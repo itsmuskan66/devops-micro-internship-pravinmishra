@@ -74,7 +74,7 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
 <!-- Week 04 → Git & GitHub -->
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
@@ -130,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/sakeena-sajid-9929a62bb_devops-dmi-agenticai-share-7506651124070875136-1Hgd |https://dev.to/sakeena_sajid_02de330ed40/week-00-learning-the-internets-foundations-devops-micro-internship-5d5 |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/sakeena-sajid-9929a62bb_devops-agenticai-dmi-share-7506004275249209345-1_eQ | https://dev.to/sakeena_sajid_02de330ed40/from-late-night-learner-to-systems-engineer-how-sakeena-sajid-built-consistency-into-a-career-5d8b|
 | 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending |https://www.linkedin.com/posts/sakeena-sajid-9929a62bb_devops-terraform-claudeai-share-7511470403706544128-nknw/?utm_source=share&utm_medium=member_android&rcm=ACoAAEza8_4BZ1CU1SUt0EKaQnD8hNTCcM8itp0 https://www.linkedin.com/posts/sakeena-sajid-9929a62bb_devops-terraform-claudeai-share-7512490964700254208-zN7N/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7512490966801633280&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAEza8_4BZ1CU1SUt0EKaQnD8hNTCcM8itp0 https://www.linkedin.com/posts/sakeena-sajid-9929a62bb_dmibypravinmishra-agenticai-claudecode-share-7512517337787453440-EGug/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEza8_4BZ1CU1SUt0EKaQnD8hNTCcM8itp0| https://dev.to/sakeena_sajid_02de330ed40/reflection-week-2-3cf6 |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux & Bash for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
