@@ -25,14 +25,14 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 2 — Output of `ip a`
 
-![First Question](./screenshots/S1.png)
+![First Question](./screenshots/S2.png)
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-![First Question](./screenshots/S2.png)
+![First Question](./screenshots/S3.png)
 #### Screenshot 4 — Output of `sudo ufw status`
 
-![First Question](./screenshots/S3.png)
+![First Question](./screenshots/S4.png)
 
 ### Notes
 
