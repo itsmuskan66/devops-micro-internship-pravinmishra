@@ -19,7 +19,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 ### Evidence
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
-![First Question](./screenshots/W3_A3_S1.png)
+![First Question](./screenshots/W3_A2_S1.png)
 
 
 
@@ -34,7 +34,7 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-![First Question](./screenshots/W3_A3_S2.png)
+![First Question](./screenshots/W3_A2_S2.png)
 # Task 3 — Clone React Application
 
 ## Goal
@@ -45,7 +45,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-![First Question](./screenshots/W3_A3_S3.png)
+![First Question](./screenshots/W3_A2_S3.png)
 
 # Task 4 — Modify Application (Personalization)
 
@@ -57,7 +57,7 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-![First Question](./screenshots/W3_A3_S4.png)
+![First Question](./screenshots/W3_A2_S4.png)
 
 # Task 5 — Build React Application
 
@@ -69,7 +69,7 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-![First Question](./screenshots/W3_A3_S5.png)
+![First Question](./screenshots/W3_A2_S5.png)
 # Task 6 — Deploy React Build to Nginx Web Root
 
 ## Goal
@@ -80,7 +80,7 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-![First Question](./screenshots/W3_A3_S6.png)
+![First Question](./screenshots/W3_A2_S6.png)
 
 # Task 7 — Configure Nginx for React Application
 
@@ -92,11 +92,11 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-![First Question](./screenshots/W3_A3_S7.png)
+![First Question](./screenshots/W3_A2_S7.png)
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
 Add your screenshot here.
-![First Question](./screenshots/W3_A3_S8.png)
+![First Question](./screenshots/W3_A2_S8.png)
 ![First Question](./screenshots/W3_A3_S8.1.png)
 ![First Question](./screenshots/W3_A3_S8.2.png)
 
@@ -110,11 +110,11 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![First Question](./screenshots/W3_A3_S9.png)
+![First Question](./screenshots/W3_A2_S9.png)
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-![First Question](./screenshots/W3_A3_S10.png)
+![First Question](./screenshots/W3_A2_S10.png)
 # LinkedIn Post (Required)
 
 ## Evidence
@@ -143,17 +143,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Node.js and npm installed and verified (Screenshot 1)
-- [ ] Nginx installed and running (Screenshot 2)
-- [ ] Repository cloned and files verified (Screenshot 3)
-- [ ] App.js updated with full name and date (Screenshot 4)
-- [ ] Production build generated (Screenshot 5)
-- [ ] Build files deployed to Nginx web root (Screenshot 6)
-- [ ] Nginx configured and active (Screenshots 7 & 8)
-- [ ] Public IP retrieved (Screenshot 9)
-- [ ] React app accessible in browser with personal details visible (Screenshot 10)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+[ ✅] Node.js and npm installed and verified (Screenshot 1)
+ [✅ ] Nginx installed and running (Screenshot 2)
+[✅ ] Repository cloned and files verified (Screenshot 3)
+ [✅ ] App.js updated with full name and date (Screenshot 4)
+ [ ✅] Production build generated (Screenshot 5)
+[ ✅] Build files deployed to Nginx web root (Screenshot 6)
+  [ ✅] Nginx configured and active (Screenshots 7 & 8)
+  [ ✅] Public IP retrieved (Screenshot 9)
+  [ ✅] React app accessible in browser with personal details visible (Screenshot 10)
+  [ ✅] LinkedIn post published and URL submitted
+  [ ✅] No sensitive data exposed
 
 ---
 
