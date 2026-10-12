@@ -20,27 +20,19 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![First Question](./screenshots/S1.png)
 
----
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/S2.png)
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
-
----
-
+![First Question](./screenshots/S3.png)
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/S4.png)
 
 ### Notes
 
