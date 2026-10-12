@@ -37,24 +37,17 @@ Verify that the deployed React application is reachable from the browser and con
 ### Notes
 
 Answer the following in your own words:
+**1. What proves Nginx is listening on 0.0.0.0:80?
 
-**1. What proves Nginx is listening on 0.0.0.0:80?**
+In the ss -tulpen output, there is a TCP line in the LISTEN state with the local address 0.0.0.0:80 and the process name nginx (users:((“nginx”,...))). The address 0.0.0.0 means Nginx accepts connections on every network interface of the server, so it is reachable from outside and not just from localhost.
 
-Write your answer here.
+**2. What proves SSH is active on port 22?
 
----
+The same output shows a TCP LISTEN line on port 22 (0.0.0.0:22, and also [::]:22 for IPv6) owned by the sshd process. This proves the SSH service is running and ready to accept remote logins on the standard port.
 
-**2. What proves SSH is active on port 22?**
+**3. Did you find any unexpected open ports? Explain briefly.
 
-Write your answer here.
-
----
-
-**3. Did you find any unexpected open ports? Explain briefly.**
-
-Write your answer here.
-
----
+No, I did not find any unexpected ports. Apart from ports 80 (Nginx) and 22 (SSH), the other entries are normal Ubuntu system services that only listen locally or on the private network: port 53 (systemd-resolved, local DNS), port 323 (chrony, time sync) and the DHCP client ports 68 and 546. Also, ufw is inactive, but access from the internet is controlled by the AWS security group, which only allows SSH, HTTP and HTTPS.
 
 # Task 2 — Service Health & Systemd Validation (Nginx)
 
@@ -66,21 +59,16 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![First Question](./screenshots/S5.png)
 
----
 
 #### Screenshot 2 — Output of `sudo nginx -t`
+![First Question](./screenshots/S6.png)
 
-Add your screenshot here.
-
----
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/S7.png)
 
 ### Notes
 
@@ -88,15 +76,12 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+1. What happens if Nginx fails to restart in production?
 
----
-
+If Nginx fails to restart, the website goes down because nothing is listening on port 80 any more, so users see connection errors or timeouts. The usual causes are a syntax error in the config file, a port conflict, or a permission problem. To avoid this, I should always run sudo nginx -t before restarting, and if a restart fails, check systemctl status nginx and journalctl -u nginx to find the exact error.
 **2. What's your basic rollback plan?**
 
-Write your answer here.
-
----
+Before changing any config, I make a backup of the working file, for example sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak. If something breaks, I copy the backup back over the config, run sudo nginx -t to confirm it is valid, and restart Nginx. Then I verify with systemctl status nginx and curl -I http://<public-ip> that the site returns 200 OK again.
 
 # Task 3 — Logs & Request Trace
 
