@@ -93,21 +93,18 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![First Question](./screenshots/S8.png)
 
----
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![First Question](./screenshots/S9.png)
 
----
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![First Question](./screenshots/S10.png)
 
----
 
 ### Notes
 
@@ -115,24 +112,16 @@ Answer the following in your own words:
 
 **1. Were there any errors in the logs?**
 
-- If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
-- If no, explain what it means if the error log is empty or shows no recent errors during your check.
-
-Write your answer here.
-
----
+Yes. In the access log, I found requests like GET /.env... HTTP/1.1" 404. This means an external scanner or bot asked for a hidden configuration file that does not exist on my server, so Nginx replied with 404 Not Found. This is common on any public IP and does not mean my deployment is broken. In the journalctl output, I saw nginx.service: Stopping timed out. Terminating. and nginx.service: Failed with result 'timeout'. This means that during one restart, Nginx did not shut down in time, so systemd forced it to stop; after that, the service started again normally.
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
-
----
+I did find a few minor errors, but none of them caused an outage. The 404 lines are harmless client-side errors from bots, and the one timeout happened during a restart and recovered right away, since the service is active and the app returns 200 OK. So the system is healthy overall. If the logs had been completely clean, it would have indicated that Nginx started correctly, the config is valid and all requested files exist.
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
 
----
+Yes, my curl requests appeared in access.log with a timestamp, the request (HEAD / or GET /), status 200 and the user agent curl/.... This proves the traffic reached Nginx on port 80, Nginx processed it, and returned the page successfully, so the full path from client to web server is working.
 
 # Task 4 — System Resource Health Check (Capacity Red Flags)
 
