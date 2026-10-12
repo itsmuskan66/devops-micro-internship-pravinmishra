@@ -76,11 +76,11 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-1. What happens if Nginx fails to restart in production?
+
 
 If Nginx fails to restart, the website goes down because nothing is listening on port 80 any more, so users see connection errors or timeouts. The usual causes are a syntax error in the config file, a port conflict, or a permission problem. To avoid this, I should always run sudo nginx -t before restarting, and if a restart fails, check systemctl status nginx and journalctl -u nginx to find the exact error.
-**2. What's your basic rollback plan?**
 
+**2. What's your basic rollback plan?**
 Before changing any config, I make a backup of the working file, for example sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak. If something breaks, I copy the backup back over the config, run sudo nginx -t to confirm it is valid, and restart Nginx. Then I verify with systemctl status nginx and curl -I http://<public-ip> that the site returns 200 OK again.
 
 # Task 3 — Logs & Request Trace
