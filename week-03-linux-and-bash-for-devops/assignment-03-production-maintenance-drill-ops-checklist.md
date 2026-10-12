@@ -133,27 +133,23 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![First Question](./screenshots/S11.png)
 
----
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![First Question](./screenshots/S12.png)
 
----
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![First Question](./screenshots/S13.png)
 
----
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![First Question](./screenshots/S14.png)
 
----
 
 ### Notes
 
@@ -167,9 +163,7 @@ Write your answer here.
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
-
----
+Memory looks like the most critical resource right now. The server has only about 1 GB of RAM, and free -h shows [used] used out of [total], with [available] still available. Since this is a small instance, memory is the first resource that can run out, and when it does, processes can be killed by the OOM killer. CPU load is low ([load average]) and disk usage is only [Use%] on /, so they are not a concern.
 
 # Task 5 — Configuration & Deployment Verification
 
