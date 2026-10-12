@@ -20,7 +20,7 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-![First Question](./screenshots/W3_A3_S10png)
+![First Question](./screenshots/W3_A3_S10.png)
 
 
 #### Screenshot 2 — Output of `ip a`
