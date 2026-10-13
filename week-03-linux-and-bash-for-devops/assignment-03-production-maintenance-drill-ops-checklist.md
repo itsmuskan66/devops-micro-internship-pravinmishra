@@ -302,15 +302,12 @@ Cloud resources are billed while they run, so unused instances waste money or fr
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/d7HaeVbB
 
 #### Screenshot — Published LinkedIn post
+![First Question](./screenshots/link.png)
 
-Add your screenshot here.
 
----
 
 # Submission Instructions
 
