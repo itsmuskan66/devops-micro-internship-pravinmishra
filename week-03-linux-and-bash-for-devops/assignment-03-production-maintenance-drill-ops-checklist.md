@@ -273,36 +273,26 @@ Review and reflect on the security and reliability practices applied during this
 ### Security & Reliability Notes
 
 Answer the following in your own words:
+1. Why is SSH key-based authentication more secure than sharing passwords?
 
-**1. Why is SSH key-based authentication more secure than sharing passwords?**
-
-Write your answer here.
-
----
+A key pair uses a private key that stays on my machine and a public key on the server, so no secret is sent over the network and there is nothing short to guess. Passwords can be weak, reused, guessed by brute force or leaked, while a long cryptographic key is practically impossible to guess. Keys can also be revoked per user without changing a shared password.
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
-
----
+Each open port is a possible entry point for attackers. Keeping only the ports that are needed (for example 22, 80 and 443) reduces the attack surface, limits what scanners and bots can find, and lowers the risk from vulnerable services I forgot were running.
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
-
----
+If the server reboots (maintenance, a crash or an instance restart), a service that is not enabled will stay stopped and the website will be down until someone starts it manually. Enabling Nginx on boot makes it start automatically so the site recovers by itself and downtime is shorter.
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
-
----
+Anyone can use leaked keys to access or control my server and cloud account. This can lead to data theft, deleted resources, malware or crypto-mining on my account, and large unexpected bills. Bots scan public repositories for leaked keys within minutes, so exposed credentials must be rotated immediately.
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Cloud resources are billed while they run, so unused instances waste money or free credits. Idle servers can also stay unpatched and become security risks. Stopping or terminating them keeps costs under control and the environment clean.
 
----
 
 # LinkedIn Post (Required)
 
