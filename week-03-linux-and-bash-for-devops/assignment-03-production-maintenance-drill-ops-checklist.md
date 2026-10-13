@@ -205,21 +205,15 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/S18.png)
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/S19.png)
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
-
----
+![First Question](./screenshots/S20.png)
 
 ### Notes
 
@@ -227,22 +221,15 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
-
----
+I removed the semicolon at the end of the try_files $uri /index.html; line in the Nginx config. Every directive in Nginx must end with a semicolon, so Nginx could not parse the file and nginx -t reported a syntax error (unexpected "}") and failed the configuration test.
 
 **2. How did you fix the issue?**
 
-Write your answer here.
-
----
+I restored the working configuration from the backup I made before the change (default.good), copying it back over /etc/nginx/sites-available/default. Then I ran sudo nginx -t to confirm the syntax was OK, reloaded Nginx with sudo systemctl reload nginx, and verified with curl -I http://<public-ip> that the site returned 200 OK.
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
-
----
-
+I should always back up the working config before editing, and run sudo nginx -t before every reload or restart so that a broken file is never applied. Using reload instead of restart avoids dropping connections, and keeping configs in version control (Git) makes review and rollback easy. In larger setups, changes should be tested in a staging environment and deployed through a CI/CD pipeline with automatic config validation.
 # Task 7 — Web Application Failure Simulation
 
 ## Goal
