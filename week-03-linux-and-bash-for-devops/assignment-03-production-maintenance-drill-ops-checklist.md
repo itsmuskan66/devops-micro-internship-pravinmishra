@@ -240,15 +240,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![First Question](./screenshots/S21.png)
 
----
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![First Question](./screenshots/S22.png)
 
----
 
 ### Notes
 
@@ -256,21 +254,15 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
-
----
+I moved index.html out of the web root /var/www/html, which simulates missing deployment content. Nginx was still running and the config was valid, but it had no page to serve, so requests failed with an error response (500/404) instead of 200 OK.
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
-
----
+I moved the backed-up index.html back into /var/www/html. No Nginx restart was needed because Nginx reads files from disk on every request. I then ran curl -I http://<public-ip> and got 200 OK, and confirmed the page in the browser.
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
-
----
+I would automate deployments with a CI/CD pipeline instead of copying files by hand, so a deployment never leaves the web root half-empty. I would keep versioned builds with a quick rollback option, make a backup before changing files, and add a health check or uptime monitor that alerts me when the site stops returning 200. A post-deploy smoke test (curl -I) should also verify each release.
 
 # Task 8 — Security & Reliability Review
 
