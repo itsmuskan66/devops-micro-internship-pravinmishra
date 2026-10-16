@@ -37,15 +37,15 @@ Verify that the deployed React application is reachable from the browser and con
 ### Notes
 
 Answer the following in your own words:
-**1. What proves Nginx is listening on 0.0.0.0:80?
+**1. What proves Nginx is listening on 0.0.0.0:80?**
 
 In the ss -tulpen output, there is a TCP line in the LISTEN state with the local address 0.0.0.0:80 and the process name nginx (users:((“nginx”,...))). The address 0.0.0.0 means Nginx accepts connections on every network interface of the server, so it is reachable from outside and not just from localhost.
 
-**2. What proves SSH is active on port 22?
+**2. What proves SSH is active on port 22?**
 
 The same output shows a TCP LISTEN line on port 22 (0.0.0.0:22, and also [::]:22 for IPv6) owned by the sshd process. This proves the SSH service is running and ready to accept remote logins on the standard port.
 
-**3. Did you find any unexpected open ports? Explain briefly.
+**3. Did you find any unexpected open ports? Explain briefly.**
 
 No, I did not find any unexpected ports. Apart from ports 80 (Nginx) and 22 (SSH), the other entries are normal Ubuntu system services that only listen locally or on the private network: port 53 (systemd-resolved, local DNS), port 323 (chrony, time sync) and the DHCP client ports 68 and 546. Also, ufw is inactive, but access from the internet is controlled by the AWS security group, which only allows SSH, HTTP and HTTPS.
 
@@ -155,15 +155,14 @@ Assess server capacity and detect potential performance or failure risks.
 
 Answer the following in your own words:
 
+
+
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
-
----
-
+Memory looks like the most critical resource right now. This server is a small t3.micro instance with only about 1 GB of RAM, so it has far less headroom than CPU or disk. The `free -h` output shows how much memory is already in use, and since Nginx and the operating system always take a share, there is little room left for anything extra. If memory runs out, the Linux OOM killer can stop processes such as Nginx and take the website down. The CPU load from `uptime` is very low because the server only serves static files, and `df -h` shows that the root disk still has plenty of free space, so those two are not a concern at the moment.
 **2. What happens if disk becomes 100% full in a production server?**
 
-Memory looks like the most critical resource right now. The server has only about 1 GB of RAM, and free -h shows [used] used out of [total], with [available] still available. Since this is a small instance, memory is the first resource that can run out, and when it does, processes can be killed by the OOM killer. CPU load is low ([load average]) and disk usage is only [Use%] on /, so they are not a concern.
+If the disk becomes 100% full, the server can no longer write any new data. Nginx cannot write logs, and the application may fail to save files, create temporary files or start services. Databases can crash or corrupt data, SSH logins can fail because the system cannot write session files, and in the worst case the server becomes unresponsive and needs recovery. To prevent this, I would monitor disk usage with alerts (for example at 80%), rotate and clean old logs, and increase the volume size if needed.
 
 # Task 5 — Configuration & Deployment Verification
 
