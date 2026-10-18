@@ -353,13 +353,14 @@ Variables store the name, folder path and score. An array holds the list of tool
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
 
+https://lnkd.in/p/dj4bJtvd
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+
+![First Question](./screenshots/POST.png)
 
 ---
 
