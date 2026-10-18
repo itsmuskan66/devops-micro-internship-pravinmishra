@@ -86,11 +86,11 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-![First Question](./screenshots/A6.png)
+![First Question](./screenshots/A7.png)
 
 
 #### Screenshot 2 — Output of `./user-info.sh`
-![First Question](./screenshots/A7.png)
+![First Question](./screenshots/A6.png)
 
 
 ### Notes
