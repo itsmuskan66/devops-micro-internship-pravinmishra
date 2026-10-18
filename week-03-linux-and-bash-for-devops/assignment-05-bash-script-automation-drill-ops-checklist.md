@@ -90,7 +90,7 @@ Use variables to store and display user-related information.
 
 
 #### Screenshot 2 — Output of `./user-info.sh`
-![First Question](./screenshots/T3.png)
+![First Question](./screenshots/T6.png)
 
 
 ### Notes
