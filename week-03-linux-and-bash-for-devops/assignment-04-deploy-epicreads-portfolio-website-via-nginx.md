@@ -44,7 +44,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-![First Question](./screenshots/SS2.png)
+![First Question](./screenshots/SSnew.png)
 
 # Task 3 — Deploy Website via Nginx
 
