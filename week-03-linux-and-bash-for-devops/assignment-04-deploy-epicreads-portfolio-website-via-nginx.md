@@ -32,7 +32,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-![First Question](./screenshots/SS1.png)
+![First Question](./screenshots/SS2.png)
 
 # Task 2 — Add Ownership Proof (Anti-Copy Change)
 
