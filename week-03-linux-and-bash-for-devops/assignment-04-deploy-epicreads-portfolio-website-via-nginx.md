@@ -76,7 +76,7 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-![First Question](./screenshots/SS6.png)
+![First Question](./screenshots/SSneww.png)
 # Task 5 — Mini Real DevOps Operational Check
 
 ## Goal
