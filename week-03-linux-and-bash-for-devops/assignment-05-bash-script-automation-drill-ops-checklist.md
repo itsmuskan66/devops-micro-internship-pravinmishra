@@ -35,22 +35,13 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. What is Bash?**
-
-Add your answer here.
-
----
+Bash (Bourne Again Shell) is a command-line interpreter and scripting language for Linux. It lets me run commands and also write scripts that automate repetitive tasks.
 
 **2. What is the difference between shell and Bash?**
-
-Add your answer here.
-
----
+A shell is the general name for any program that takes commands from the user and passes them to the operating system, such as sh, zsh or ksh. Bash is one specific shell, and it is the default on most Linux systems.
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
-
-Add your answer here.
-
----
+Different Bash versions support different features. For example, associative arrays need Bash 4 or newer. Checking the version makes sure my script will run correctly and does not break on another server.
 
 # Task 2 — Your First Bash Script
 
@@ -82,23 +73,14 @@ Add your screenshot here.
 
 Answer the following in your own words:
 
-**1. What is the purpose of `#!/bin/bash`?**
+**1. What is the purpose of #!/bin/bash?**
+It is called the shebang. It tells the system which interpreter should run the script, here /bin/bash, so the script behaves the same no matter which shell I am using.
 
-Add your answer here.
+**2. Why do we use chmod +x before running a script?**
+A new file does not have execute permission by default. chmod +x adds it, and without it running ./script.sh gives a “Permission denied” error.
 
----
-
-**2. Why do we use `chmod +x` before running a script?**
-
-Add your answer here.
-
----
-
-**3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
-
-Add your answer here.
-
----
+**3. What is the difference between running a script using ./script.sh and bash script.sh?**
+./script.sh needs execute permission and uses the interpreter from the shebang line. bash script.sh starts Bash directly and gives it the file to read, so it works even without execute permission.
 
 # Task 3 — Variables: User Information Script
 
@@ -125,22 +107,13 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. What is a variable in Bash?**
+A variable is a named place that stores a value, such as text or a number, so I can reuse it later in the script.
 
-Add your answer here.
-
----
-
-**2. Why should we avoid spaces around the `=` sign when creating variables?**
-
-Add your answer here.
-
----
+**2. Why should we avoid spaces around the = sign when creating variables?**
+Bash treats a space as a separator between a command and its arguments. With name = "value" it would try to run a command called name, which gives a “command not found” error. The correct form is name="value".
 
 **3. How do you access the value stored inside a Bash variable?**
-
-Add your answer here.
-
----
+By putting a dollar sign before the variable name, for example $name or ${name}.
 
 # Task 4 — Arrays & Loops: Tools Checklist Script
 
