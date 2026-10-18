@@ -20,15 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![First Question](./screenshots/A1.png)
 
----
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![First Question](./screenshots/A2.png)
 
----
 
 ### Notes
 
@@ -53,21 +51,17 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![First Question](./screenshots/A3.png)
 
----
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![First Question](./screenshots/A4.png)
 
----
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
+![First Question](./screenshots/A5.png)
 
-Add your screenshot here.
-
----
 
 ### Notes
 
@@ -92,15 +86,12 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![First Question](./screenshots/A6.png)
 
----
 
 #### Screenshot 2 — Output of `./user-info.sh`
+![First Question](./screenshots/A7.png)
 
-Add your screenshot here.
-
----
 
 ### Notes
 
@@ -125,9 +116,8 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![First Question](./screenshots/A8.png)
 
----
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
@@ -409,18 +399,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+ [✅ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+ [✅] ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+ [✅ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+ [ ✅] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+ [✅ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+ [✅ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+ [ ✅] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+ [✅ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+ [✅ ] All scripts run without errors
+ [✅ ] Full Name visible in all required screenshots
+ [✅ ] LinkedIn post published and URL submitted
+[✅ ] No sensitive data exposed
 
 ---
 
