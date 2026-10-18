@@ -33,22 +33,27 @@ Add your screenshot here.
 ### Notes
 
 Answer the following in your own words:
-
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+The command `systemctl is-active nginx` returned `active`, which shows that systemd
+reports the Nginx service as currently running. The `curl -I http://localhost` request
+also received a valid response from Nginx, which confirms the process is alive and
+handling requests.
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+The output of `ss -ltn | grep ':80'` shows a socket in the `LISTEN` state on port 80,
+which means the server is ready to accept incoming HTTP connections. The
+`curl -I http://localhost` command returned `HTTP/1.1 200 OK`, proving that a request
+sent to port 80 was actually answered successfully.
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+A healthy baseline shows what the system looks like when everything is working normally: Nginx is active, port 80 is listening, and the website returns 200 OK. Without that reference point, I would not be able to tell what actually changed once the incident is simulated. It also gives me something to compare against after recovery, so I can prove the service is truly back to its normal state and not just partly working.
 
 ---
 
