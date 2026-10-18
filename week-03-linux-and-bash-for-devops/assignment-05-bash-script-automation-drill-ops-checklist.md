@@ -90,7 +90,7 @@ Use variables to store and display user-related information.
 
 
 #### Screenshot 2 — Output of `./user-info.sh`
-![First Question](./screenshots/A6.png)
+![First Question](./screenshots/T3.png)
 
 
 ### Notes
@@ -116,14 +116,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-![First Question](./screenshots/A8.png)
+![First Question](./screenshots/T4.1.png)
 
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![First Question](./screenshots/T4.2.png)
 
----
 
 ### Notes
 
@@ -131,27 +130,23 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
+An array is a variable that holds a list of values under one name, for example `tools=("bash" "git" "nginx")`. Each value has a position (index) starting from 0.
 
----
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
+They let me keep related items together and process them in one go, instead of creating many separate variables. Adding or removing an item only needs a change in one place.
 
----
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+It expands to all the elements of the `tools` array, with each element kept as a separate word. The quotes make sure items that contain spaces are not split apart.
 
----
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+The `for` loop goes through the array one element at a time and runs the same `echo` command for each tool, so the whole checklist is printed without repeating the code.
 
----
 
 # Task 5 — Loops: Number Counter Script
 
