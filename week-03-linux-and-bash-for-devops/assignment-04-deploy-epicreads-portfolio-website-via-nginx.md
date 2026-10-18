@@ -87,10 +87,10 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-![First Question](./screenshots/SS7.png)
+![First Question](./screenshots/SS6.png)
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-![First Question](./screenshots/SS8.png)
+![First Question](./screenshots/SS7.png)
 
 # LinkedIn Post (Mandatory)
 
