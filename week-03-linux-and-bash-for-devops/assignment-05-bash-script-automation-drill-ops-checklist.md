@@ -255,7 +255,7 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-![First Question](./screenshots/T7.2.png)
+![First Question](./screenshots/t7.2.png)
 
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
